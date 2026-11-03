@@ -226,3 +226,6 @@ target/
 dbt_packages/
 *.duckdb
 *.duckdb.wal
+
+# Raw data, rebuilt by running the extract scripts
+data/
