@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_weather
+    description: One row per park per day of weather from Open-Meteo.
+    columns:
+      - name: park_code
+        description: Four-letter park code.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('parks')
+                field: park_code
+      - name: weather_date
+        description: Date of the weather reading.
+        data_tests:
+          - not_null
