@@ -30,3 +30,29 @@ clean-targets:         # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 
+seeds:
+  national_parks:
+    nps_visits:
+      +column_types:
+        RecreationVisits: varchar
+        NonRecreationVisits: varchar
+        RecreationHours: varchar
+        NonRecreationHours: varchar
+        ConcessionerLodging: varchar
+        ConcessionerCamping: varchar
+        TentCampers: varchar
+        RVCampers: varchar
+        Backcountry: varchar
+        NonRecreationOvernightStays: varchar
+        MiscellaneousOvernightStays: varchar
+        RecreationVisitsTotal: varchar
+        NonRecreationVisitsTotal: varchar
+        RecreationHoursTotal: varchar
+        NonRecreationHoursTotal: varchar
+        ConcessionerLodgingTotal: varchar
+        ConcessionerCampingTotal: varchar
+        TentCampersTotal: varchar
+        RVCampersTotal: varchar
+        BackcountryTotal: varchar
+        NonRecreationOvernightStaysTotal: varchar
+        MiscellaneousOvernightStaysTotal: varchar

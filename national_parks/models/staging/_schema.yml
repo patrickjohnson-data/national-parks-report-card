@@ -16,3 +16,24 @@ models:
         description: Date of the weather reading.
         data_tests:
           - not_null
+
+  - name: stg_nps_visits
+    description: One row per national park per month of recreation visits, from NPS Stats.
+    columns:
+      - name: park_code
+        description: Four-letter NPS park code.
+        data_tests:
+          - not_null
+      - name: visit_year
+        data_tests:
+          - not_null
+      - name: visit_month
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+                quote: false
+      - name: recreation_visits
+        data_tests:
+          - not_null          
