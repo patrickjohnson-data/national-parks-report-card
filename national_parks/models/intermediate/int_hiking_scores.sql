@@ -7,22 +7,11 @@ with trail_totals as (
     group by park_code
 ),
 
-compared as (
+ranked as (
     select *
-        ,max(trail_miles) over () as top_trail_miles
-        ,round(trail_miles / max(trail_miles) over () * 100, 1) as trail_pct
+        ,round(percent_rank() over (order by trail_miles) * 100, 1) as trail_rank_pct
+        ,round(40 + 60 * percent_rank() over (order by trail_miles)) as hiking_score
     from trail_totals
-),
-
-points as (
-    select *
-        ,case
-            when trail_pct >= 75 then 100
-            when trail_pct >= 50 then 80
-            when trail_pct >= 25 then 60
-            else 40
-         end as hiking_score
-    from compared
 )
 
 select *
@@ -32,4 +21,4 @@ select *
         when hiking_score >= 60 then 'C'
         else 'D'
      end as hiking_grade
-from points
+from ranked

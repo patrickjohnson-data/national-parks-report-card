@@ -40,13 +40,13 @@ Weather gets downloaded when you run the project. The visitor counts and trails 
 
 Weather, crowds and hiking each get a score out of 100. The overall score weights them 40% weather, 40% crowds and 20% hiking. I weighted hiking lowest because it's the roughest of the three and it doesn't change from month to month.
 
-Every category uses the same grade scale: A is 90 and up, B is 75 to 89, C is 60 to 74, and D is anything below 60.
+Weather, crowds and hiking each get their own grade on a fixed scale: A is 90 and up, B is 75 to 89, C is 60 to 74, and D is anything below 60. The overall grade is curved instead, because a park's quietest months are usually its worst-weather months, so almost no month scores high on everything. The top 10% of all park-months get an A, the next 30% a B, the next 40% a C, and the bottom 20% a D.
 
 **Weather.** Points for the average high (50 for 60 to 80°F, 30 for 50 to 90°F, 10 otherwise), the average low (20 for 40 to 60°F, 10 for 32 to 70°F, 0 otherwise) and rain (30 for under 0.05 in a day, 15 for under 0.15, 0 otherwise).
 
 **Crowds.** Each month is compared with that park's own busiest month, so a quiet month at a busy park can still score well. Under 40% of peak gets 100, under 60% gets 80, under 80% gets 60, and anything higher gets 40.
 
-**Hiking.** Total trail miles compared with the park that has the most. 75% or more of the top park gets 100, 50% or more gets 80, 25% or more gets 60, and the rest get 40. Parks with no trails in the NPS data also get 40.
+**Hiking.** Parks are ranked by total trail miles, and the rank becomes a score from 40 (fewest miles) to 100 (most). I first compared every park with the one that had the most miles, but Yellowstone is so far ahead that almost every other park ended up at the bottom. Ranking spreads them out evenly. Parks with no trails in the NPS data get 40.
 
 ## Running it
 
@@ -62,9 +62,9 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-On Mac or Linux, activate the environment with `source .venv/bin/activate`.
+On Mac or Linux, activate the environment with `source .venv/bin/activate`. If PowerShell won't run the activate script, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once and try again.
 
-Download the weather. This takes a few minutes, because the script pauses when Open-Meteo rate limits it:
+Download the weather. The first run fetches all 63 parks and takes several minutes, because the script pauses when Open-Meteo rate limits it:
 
 ```
 python extract/extract_weather.py
@@ -101,6 +101,7 @@ The visitor counts are a manual step, because NPS Stats doesn't have a download 
 
 - Crowd numbers are for the whole park. I couldn't find free trail-level crowd data, since AllTrails and Strava don't have public APIs.
 - 2020 includes COVID closures, so some 2020 months look quieter than they really were.
+- Low visitor numbers don't always mean a good time to visit. Some months are quiet because a park is hard to reach, for example when snow keeps roads closed, so a high crowd score can reward an inaccessible month.
 - Weather comes from one point per park, using approximate park centers. Big parks with a lot of elevation change can be much warmer or colder in other areas.
 - Hiking rewards total miles, so big parks beat small parks with famous hikes, like Zion. The NPS data may also include some informal trails.
 - A few parks have no trails in the NPS data, mostly the marine parks and remote Alaska parks. Sequoia and Kings Canyon are managed together, so their trails may be filed under one code.

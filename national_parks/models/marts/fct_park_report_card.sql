@@ -33,13 +33,19 @@ with combined as (
         on w.park_code = h.park_code
     inner join {{ ref('parks') }} p
         on w.park_code = p.park_code
+),
+
+ranked as (
+    select *
+        ,percent_rank() over (order by overall_score desc) as score_rank
+    from combined
 )
 
 select *
     ,case
-        when overall_score >= 90 then 'A'
-        when overall_score >= 75 then 'B'
-        when overall_score >= 60 then 'C'
+        when score_rank <= 0.10 then 'A'
+        when score_rank <= 0.40 then 'B'
+        when score_rank <= 0.80 then 'C'
         else 'D'
      end as overall_grade
-from combined
+from ranked
