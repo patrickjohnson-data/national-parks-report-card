@@ -50,40 +50,102 @@ Weather, crowds and hiking each get their own grade on a fixed scale: A is 90 an
 
 ## Running it
 
-I've tested this on Windows with Python 3.14 and dbt Core 1.12. You'll need Python and Git installed.
+I've tested this on Windows 11 with Python 3.14 and dbt Core 1.12. The steps below are for Windows PowerShell, with Mac and Linux differences noted. The whole thing takes about 15 minutes, most of it waiting for the weather download.
 
-Clone the repo and install the requirements:
+### 1. Install the tools
+
+You need two things installed first:
+
+- **Python 3.12 or newer**, from [python.org](https://www.python.org/downloads/). On Windows, tick **"Add python.exe to PATH"** on the first screen of the installer.
+- **Git**, from [git-scm.com](https://git-scm.com/downloads). The default options are fine.
+
+To check they're installed, open PowerShell (search for "PowerShell" in the Start menu) and run:
 
 ```
+python --version
+git --version
+```
+
+Each should print a version number. If you get "not recognized", close PowerShell, open it again, and retry. If it still fails, reinstall and make sure Python is added to PATH.
+
+### 2. Download the project
+
+Pick a folder for it, then clone the repo. This example uses `C:\projects`:
+
+```
+mkdir C:\projects
+cd C:\projects
 git clone https://github.com/patrickjohnson-data/national-parks-report-card.git
 cd national-parks-report-card
+```
+
+You're now in the project's main folder. Steps 3 to 5 run from here.
+
+### 3. Set up a virtual environment
+
+A virtual environment keeps this project's packages separate from anything else on your computer.
+
+```
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+```
+
+When it's active, your prompt starts with `(.venv)`. If you open a new PowerShell window later, run the second line again from this folder.
+
+If PowerShell says running scripts is disabled, run this once and then try the activate line again:
+
+```
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+On Mac or Linux, activate with `source .venv/bin/activate` instead.
+
+### 4. Install the packages
+
+```
 pip install -r requirements.txt
 ```
 
-On Mac or Linux, activate the environment with `source .venv/bin/activate`. If PowerShell won't run the activate script, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once and try again.
+This installs dbt, the DuckDB adapter and the requests library. It takes a minute or two.
 
-Download the weather. The first run fetches all 63 parks and takes several minutes, because the script pauses when Open-Meteo rate limits it:
+### 5. Download the weather
 
 ```
 python extract/extract_weather.py
 ```
 
-Then build everything. dbt commands need to run from the `national_parks` folder:
+You'll see a line for each of the 63 parks. Open-Meteo's free tier limits how fast you can download, so the script sometimes pauses for 60 seconds and then carries on. That's normal. If it stops partway, run it again and it picks up where it left off.
+
+The weather files are saved in `data/raw/weather`. The visitor counts and trails are already in the repo, so there's nothing else to download.
+
+### 6. Build and test with dbt
+
+dbt has to run from the `national_parks` folder inside the project:
 
 ```
 cd national_parks
 dbt build
 ```
 
-That loads the seeds, builds the models and runs the tests. To see the best park months:
+`dbt build` loads the seed files, builds every model in order and runs all the tests. It finishes in under a minute, and the last line should show `ERROR=0`.
+
+If you see "No dbt_project.yml found", you're in the wrong folder. Run `cd national_parks` and try again.
+
+### 7. Look at the results
+
+To see the 20 best park months:
 
 ```
 dbt show --inline "select park_name, month_name, overall_score, overall_grade from {{ ref('fct_park_report_card') }} order by overall_score desc" --limit 20
 ```
 
-You can also open `national_parks/dev.duckdb` in DBeaver or another DuckDB client, or run `dbt docs generate` and `dbt docs serve` to browse the models and the lineage graph.
+To see one park, change the name in this query:
+
+```
+dbt show --inline "select month_name, weather_grade, crowd_grade, hiking_grade, overall_grade from {{ ref('fct_park_report_card') }} where park_name = 'Zion' order by month_number" --limit 12
+```
+
+All the data lives in `national_parks/dev.duckdb`, which you can open in [DBeaver](https://dbeaver.io/) or another DuckDB client. To browse the models and the lineage graph in your browser, run `dbt docs generate` and then `dbt docs serve`. Press Ctrl+C in PowerShell to stop it.
 
 ## Refreshing the data
 
