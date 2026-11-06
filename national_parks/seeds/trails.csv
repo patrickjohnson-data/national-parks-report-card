@@ -1,743 +1,1159 @@
-park_code,trail_name
-YELL,0A3
-YELL,8G1
-YELL,8H2
-YELL,8H2 Campsite Spur Trail
-YELL,8H4 Campsite Spur Trail
-YELL,8H5 Campsite Trail
-YELL,8H6 Campsite Trail
-YELL,8J1 Campsite Spur Trail
-YELL,8J2 Campsite Spur Trail
-YELL,8M1
-YELL,8M2
-YELL,8R2
-YELL,8R3
-YELL,8R5 campsite
-YELL,8S1 campsite
-YELL,8S3 campsite
-YELL,8T1
-YELL,Basin Bay Trail
-YELL,Bechler River
-YELL,Bridge Bay Campground-Natural Bridge Trail
-YELL,Cove Cabin
-YELL,DeLacy Creek Trail
-YELL,Divide
-YELL,Dogshead Trail / Continental Divide
-YELL,Duck Lake Trail
-YELL,Employee Walking Path
-YELL,Fern Cascade Loop
-YELL,Fern Cascade Loop Trail
-YELL,Heart Lake Trail
-YELL,Heart Lake Trail / Continental Divide
-YELL,Howard Eaton/Lone Star
-YELL,Howard Eaton/Lone Star / Continental Divide
-YELL,Lewis River Channel Trail
-YELL,Lone Star
-YELL,Mallard Creek
-YELL,Mallard Lake
-YELL,Marina Walk Lane
-YELL,Mary Lake Cabin
-YELL,Mary Mountain-Nez Perce
-YELL,Mount Sheridan Trail
-YELL,North Shore Shoshone Lake Trail
-YELL,OA1
-YELL,OA2 campsite
-YELL,OB2 campsite
-YELL,OB3 campsite
-YELL,OB4 campsite
-YELL,Observation Point
-YELL,Old Trail Creek Trail
-YELL,Pocket Lake Trail
-YELL,Riddle Lake Trail
-YELL,Shosbone lake trail / Continental Divide
-YELL,Shoshone Geyser Basin Horse Cutofff
-YELL,Shoshone Geyser Basin Horse Cutofff (Closed)
-YELL,Shoshone Lake
-YELL,Shoshone Lake / Continental Divide
-YELL,Shoshone Lake Trail / Continental Divide
-YELL,South Shore Shoshone Lake
-YELL,South Shore Shoshone Lake / Continental Divide
-YELL,South Shore Shoshone Lake Trail
-YELL,South Shore Shoshone Lake Trail / Continental Divide
-YELL,Spring Creek Trail
-YELL,Three Senses Nature Trail
-YELL,Trail Creek Trail
-YELL,Trail Creek Trail / Continental Divide
-YELL,Trail Creek Trail/ Continental Divide
-YELL,Upper Geyser Basin Trail
-YELL,Upper Geyser Hill Trail
-YELL,West Thumb Geyser Basin Trail
-YELL,West Thumb Overlook Loop Trail
-YOSE,After Six Scramble Descent
-YOSE,Approach to Northwest Buttress
-YOSE,Boothe Lake Trail
-YOSE,Bridalveil Fall Trail
-YOSE,Budd Lake Trail
-YOSE,Buena Vista Trail
-YOSE,Cathedral Lakes Trail
-YOSE,Chapel Boardwalk
-YOSE,Climber's Approach
-YOSE,Climber's Descent
-YOSE,Climbers' Descent
-YOSE,Clouds Rest Bypass Trail
-YOSE,Clouds Rest Trail
-YOSE,Cook's Meadow Trail
-YOSE,Cottonwood Meadow Trail
-YOSE,DAFF dome approach
-YOSE,Daff Dome Approach
-YOSE,Dozier Dome Climber's Descent
-YOSE,Dozier Dome Climbing Approach
-YOSE,East Beach Trail
-YOSE,East Buttress Approach
-YOSE,El Capitan Trail
-YOSE,Elizabeth Lake Trail
-YOSE,Evelyn Lake Trail
-YOSE,Five Open Books Approach
-YOSE,Five Open Books Descent Trail
-YOSE,Forsyth Trail
-YOSE,Four Mile Trail
-YOSE,Glacier Point Apron Approach
-YOSE,Glen Aulin - May Lake Trail
-YOSE,Half Dome Trail
-YOSE,Happy Isles
-YOSE,Happy Isles Fen Boardwalk
-YOSE,Harry Daley Route Approach
-YOSE,Indian Arch Trail
-YOSE,Jamcrack Approach
-YOSE,John Muir Trail
-YOSE,Loggerhead Buttress Climber Approach
-YOSE,Lower Brother Climbing Approach
-YOSE,Lower Cathedral Lake Trail
-YOSE,Lower Yosemite Fall Trail
-YOSE,Lukens Lake Trail
-YOSE,Main Wall Approach
-YOSE,Manure Pile Buttress Descent
-YOSE,May Lake Trail
-YOSE,McCabe Lakes Trail
-YOSE,Medlicott Dome Climbing Approach
-YOSE,Merced Pass Trail
-YOSE,Mist Trail
-YOSE,Monday Morning Slab Climbers Approach
-YOSE,Mount Conness South Slope Route
-YOSE,Mt. Hoffmann Trail
-YOSE,Munginella Approach Scramble
-YOSE,Murphy Creek Trail
-YOSE,Nelson Lake Use Trail
-YOSE,North Dome
-YOSE,North Dome Gully Climber's Descent
-YOSE,North Dome Trail
-YOSE,North Valley Trail
-YOSE,Northwest Books Approach Scramble
-YOSE,Old Tioga Road
-YOSE,Pacific Crest Trail
-YOSE,Panorama Trail
-YOSE,Pohono Trail
-YOSE,Polly Dome Lakes Trail
-YOSE,Presidential Boulder Approach
-YOSE,Puppy Boulders Approach
-YOSE,Rafferty Creek Trail
-YOSE,Rockslides Trail
-YOSE,Rodgers Lake Trail
-YOSE,Royal Arches Climber's Descent
-YOSE,Royal Arches Descent
-YOSE,Scramble Approach
-YOSE,Sentinel Dome Trail
-YOSE,Smith Peak Trail
-YOSE,Snake Dike Approach
-YOSE,Snow Creek Trail
-YOSE,Soda Spring Acesss
-YOSE,South Face Route Approach
-YOSE,Spur at Devil's Elbow
-YOSE,Stables Access
-YOSE,Staircase Falls Climbing Approach
-YOSE,Sunnyside Bench Climber's Descent
-YOSE,Sunrise Lakes Trail
-YOSE,Swan Slab Climber's Descent
-YOSE,Ten Lakes Trail
-YOSE,Tenaya Lake Trail
-YOSE,The Cables
-YOSE,The Grack Approach
-YOSE,The Gunsight
-YOSE,Upper Yosemite Fall Trail
-YOSE,Upper Young Lake Trail
-YOSE,Valley Loop Trail
-YOSE,Vogelsang Peak Route
-YOSE,Young Lakes Trail
-YOSE,Young Lakes via Dog Lake Trail
-GRCA,Arizona National Scenic Trail
-GRCA,Arizona National Scenic trail
-GRCA,Arizona Trail
-GRCA,Boat Beach Trail
-GRCA,Boucher Trail
-GRCA,Bright Angel Campground Route
-GRCA,Bright Angel Point Trail
-GRCA,Bright Angel Suspension Bridge
-GRCA,Bright Angel Trail
-GRCA,Cape Royal Trail
-GRCA,Center Street Trail
-GRCA,Center Street Trail Crossing
-GRCA,Clear Creek Trail
-GRCA,Cliff Spring Trail
-GRCA,Cottonwood Creek Trail
-GRCA,Crystal Creek Route
-GRCA,Dripping Springs Trail
-GRCA,El Tovar Access Path
-GRCA,Escalante Route
-GRCA,Grand Canyon Market Cutover
-GRCA,Grand Canyon Market Sidewalk
-GRCA,Grand Canyon Market Spur
-GRCA,Grand Canyon Market to Mather Campground Cutover
-GRCA,Grand Canyon School to Muav Court Cutover
-GRCA,Grand Canyon Village Greenway
-GRCA,Grand Canyon Visitor Center Loop
-GRCA,Grandview Trail
-GRCA,Greenway
-GRCA,Greenway Trailhead Parking Area
-GRCA,Greenway to Headquarters Cutover
-GRCA,Greenway to Kaibab Street Trail
-GRCA,Hance Creek Trail
-GRCA,Headquarters to Geology Museum Trail
-GRCA,Hermit Creek Trail
-GRCA,Hermit Road Greenway Trail
-GRCA,Hermit Trail
-GRCA,Hermits Rest Access
-GRCA,Horseshoe Mesa East Trail
-GRCA,Juniper Hill Trail
-GRCA,Kaibab Street Trail
-GRCA,Kaibab Suspension Bridge
-GRCA,Ken Patrick Trail
-GRCA,Long Jim Trail
-GRCA,Maricopa Point Trail
-GRCA,Maswik Sidewalk
-GRCA,Mather Campground Cutover
-GRCA,Mather Campground Trail
-GRCA,McKee Amphitheater
-GRCA,Mule Road to Grand Canyon Village Cutover
-GRCA,Nature Trail
-GRCA,New Hance Trail
-GRCA,North Kaibab Trail
-GRCA,Old Bright Angel Trail
-GRCA,Old South Entrance Road
-GRCA,Page Spring
-GRCA,Path to Overlook
-GRCA,Phantom Ranch Village Trail
-GRCA,Pipe Creek Beach Trail
-GRCA,Plateau Point Trail
-GRCA,Powell Point Trail
-GRCA,Redwall Bridge
-GRCA,Residential Loop
-GRCA,Ribbon Falls Trail
-GRCA,Rim Trail
-GRCA,River Trail
-GRCA,Roaring Springs Trail
-GRCA,Shoshone Point Trail
-GRCA,South Entrance Spur
-GRCA,South Kaibab Trail
-GRCA,Supai Tunnel
-GRCA,Tiyo Point Trail
-GRCA,Tonto Trail
-GRCA,Trail 6 Ylw
-GRCA,Trailer Village Crosswalk
-GRCA,Transept Trail
-GRCA,Tusayan Mountain Bike Loop 702
-GRCA,Tusyan Sidewalk
-GRCA,Uncle Jim Trail
-GRCA,Village Greenway
-GRCA,Village Loop
-GRCA,Village Loop Cutover
-GRCA,Village Loop Drive
-GRCA,Village Loop Drive Sidewalk
-GRCA,Waldron Trail
-GRCA,West Rim Trail
-GRCA,West Rim trail
-GRCA,West Tonto Trail
-GRCA,Widforss Trail
-GRCA,Yaki Point Road Cutover
-GRCA,Zuni Trail
-ZION,ACEs High (East End) Trail
-ZION,ACEs High Lower Trail
-ZION,ACEs High Upper Trail
-ZION,Access Trail
-ZION,Angels Landing Trail
-ZION,Archaeology Trail
-ZION,Barney's Trail
-ZION,Bay Ridge Access Trail
-ZION,Bay Ridge Trail
-ZION,Big Toe Trail
-ZION,Bison Chute Trail
-ZION,Bison Escape Trail
-ZION,Cable Mountain Trail
-ZION,Campground and Overlook Connector Trail
-ZION,Campsite 6 Access
-ZION,Cannyon Connection
-ZION,Canyon Connection Trail
-ZION,Canyon Overlook Trail
-ZION,Chinle Trail
-ZION,Coalpits Wash Trail
-ZION,Connector Trail
-ZION,Deertrap Mountain Trail
-ZION,Diamond Deck Bypass Trail
-ZION,Diamond Deck Connector Trail
-ZION,Dig It Trail
-ZION,Duck Duck Goose Trail
-ZION,East Mesa Trail
-ZION,East Rim Trail
-ZION,East Rim Trail - Closed Indefinitely
-ZION,Eliptical Climbing Trail
-ZION,Eliptical Trail
-ZION,Entrance
-ZION,Equestrain Downhill Trail
-ZION,Exit
-ZION,Flying Monkey
-ZION,Gander Trail
-ZION,Grafton Mesa Trail
-ZION,Grafton Wash Trail
-ZION,Grotto Trail
-ZION,Guacamole Trail
-ZION,Guacamole West Link Trail
-ZION,Hidden Canyon - Closed Indefinitely
-ZION,Holy Guacamole
-ZION,Hop Valley Trail
-ZION,Huber Wash Trail
-ZION,Human History Museum Trail
-ZION,Jolly's MTB Trail
-ZION,Juniper Rush Trail
-ZION,Kayenta Trail
-ZION,Kolob Arch Trail
-ZION,La Verkin Creek Trail
-ZION,Lava Point Overlook Trail
-ZION,Lazy Money Trail
-ZION,Lime With A Twist Trail
-ZION,Little Dipper Trail
-ZION,Lollipop Access Trail
-ZION,Lollipop Trail
-ZION,Lower Emerald Pool Trail
-ZION,Lunar Escape Trail
-ZION,Lunar Ride Trail
-ZION,Maestro Trail
-ZION,Magic Carpet Trail
-ZION,Margarita Trail
-ZION,Mary Bonner Nature Trail
-ZION,Maverick Trail
-ZION,Meanderthon Trail
-ZION,Menu Falls Foot Path
-ZION,Middle Emerald Pools
-ZION,More Money Trail
-ZION,Museum
-ZION,Northgate Peaks Trail
-ZION,Nung’wu Poa (Paiute) Trail
-ZION,Nung’wu Poa (Paiute) Trail - East Loop
-ZION,Nung’wu Poa (Paiute) Trail - Phase 2
-ZION,Nung’wu Poa (Paiute) Trail - West Loop
-ZION,Observation Point
-ZION,Official River Access Trail
-ZION,Optional Feature
-ZION,Orderville Canyon Day Hike Section
-ZION,Parking Lot Connector Trail
-ZION,Pigs in Space Trail
-ZION,Pine Knoll Trail
-ZION,Pine Valley Connector Trail
-ZION,Pinion Run
-ZION,Pinion Run Access Trail
-ZION,Pinion Run Trail
-ZION,Radio Flyer Trail
-ZION,Reach Around Trail
-ZION,Ring Around the Rosie Climbing Trail
-ZION,Ring Around the Rosie Trail
-ZION,Riverside Walk
-ZION,Roadrunner Trail
-ZION,Sand Bench Trail
-ZION,Sawmill Springs Trail
-ZION,Scoggins Wash Trail
-ZION,Sheep Bridge Hiking Trail
-ZION,Sheeps Bridge Trail
-ZION,Show Me the Money Trail
-ZION,Stair Master Trail
-ZION,Stave Spring Trail
-ZION,Tabernacle Dome Access Trail
-ZION,Telephone Canyon Trail
-ZION,The Narrows Day Hike Section
-ZION,The Narrows Top Down
-ZION,The Subway
-ZION,The Subway Bottom-Up Approach
-ZION,The Subway Top-Down Approach
-ZION,Toquerville Twister
-ZION,Town Trail
-ZION,Twin Knoll Trail
-ZION,Undisclosed Trail
-ZION,Upper Emerald Pool
-ZION,Upper Orderville Canyon Trail
-ZION,Virgin River Nature Trail
-ZION,Walter's Wiggles
-ZION,Watchman Trail
-ZION,Weeping Rock
-ZION,Weeping Rock Trail
-ZION,West Rim Trail
-ZION,Wildcat Canyon Trail
-ZION,Wile E. Coyote Trail
-ZION,Windmill Trail
-ZION,Wire Mesa Loop Trail
-ROMO,"""The Saddle"" trail"
-ROMO,Adams Falls Loop
-ROMO,After Burn Trail
-ROMO,Allenspark Trail
-ROMO,Alpine Ridge Trail
-ROMO,Andrews Glacier Trail
-ROMO,Aspen Brook Trail
-ROMO,Aspen Knoll camp access
-ROMO,Aspenglen Campground Trail
-ROMO,Aspenglen Trail
-ROMO,Babcock Drive
-ROMO,Baker Gulch Trail
-ROMO,Balanced Rock Trail
-ROMO,Barclay Connector
-ROMO,Batman/Checkerboard Rock Climbing Access
-ROMO,Bear Lake / Glacier Gorge Trail
-ROMO,Bear Lake Stock Trail
-ROMO,Bear Lake Trail
-ROMO,Bear Lake-Bierstadt Trail
-ROMO,Beaver Mountain Trail
-ROMO,Beaver Wetlands Boardwalk
-ROMO,Bible Point Trail
-ROMO,Bierstadt Lake Trail
-ROMO,Bierstadt Moraine Trail
-ROMO,Black Canyon Trail
-ROMO,Black Lake Trail
-ROMO,Bluebird Lake Trail
-ROMO,Book Area Climbing Access
-ROMO,Book Climbing Access
-ROMO,Book End Climbing Access
-ROMO,"Bookmark, Left Book, Book End, Lens Rock Climbing Access"
-ROMO,Boone Family Mountain Center Trail
-ROMO,Boulder Brook Trail
-ROMO,Boulder-Grand Pass Trail
-ROMO,Boulder-Grand Pass trail (unmaintained)
-ROMO,Bowen Gulch Connector Trail
-ROMO,Bowen Gulch Trail
-ROMO,Box-Eagle Lakes Route
-ROMO,Bridal Veil Falls Trail
-ROMO,CRD Admin Trail
-ROMO,Cache la Poudre Trail
-ROMO,Camp Timberline Trail
-ROMO,Chapin Creek Trail
-ROMO,Chapin Pass Trail
-ROMO,Chapin Pass Trail - Lower Fork
-ROMO,Chasm Lake Trail
-ROMO,Chiquita Mountain Bypass
-ROMO,"Climbing Access, Sundance Buttress"
-ROMO,Colorado River Trail
-ROMO,Continental Divide Trail
-ROMO,Continental Divide Trail East Shore Trail
-ROMO,Cony Lake Trail
-ROMO,Copeland Falls side trail
-ROMO,Copeland Falls trail
-ROMO,County Road 669
-ROMO,Cow Creek Trail
-ROMO,Crater Trail
-ROMO,Crystal Lake Trail
-ROMO,Cub Lake Trail
-ROMO,Cub Lake-Mill Creek Basin Trail
-ROMO,Cutbank campsite access
-ROMO,Cutbank/Golden Banner access
-ROMO,Dark Mountain Trail
-ROMO,Deer Mountain Trail
-ROMO,Deer Ridge Road
-ROMO,Deer Ridge Trail
-ROMO,Descent from Batman Pinnacle
-ROMO,Discovery Center Trail
-ROMO,Dorsey Lake Trail
-ROMO,East Inlet Trail
-ROMO,East Longs Peak Trail
-ROMO,East Shore Trail
-ROMO,East Shore Trail (Continental Divide Trail)
-ROMO,Emerald Lake Trail
-ROMO,Emerald Loop Trail
-ROMO,Emerald Mountain Trail
-ROMO,Enger Family Nature Trail
-ROMO,Estes Cone Trail
-ROMO,Estes Park Women's Monument
-ROMO,Eugena Mine Trail
-ROMO,Fern Lake Campsite Access Trail
-ROMO,Fern Lake Trail
-ROMO,Finch Lake - Pear Lake Trail
-ROMO,Finch Lake Cutoff Trail
-ROMO,Fire Trail
-ROMO,Flattop Mountain Trail
-ROMO,Fox Creek Trail
-ROMO,Friendship Trail
-ROMO,GCT West
-ROMO,Gem Lake Trail
-ROMO,Glacier Creek Trail
-ROMO,Glacier Creek Trail (GCT)
-ROMO,Glacier Gorge Trail
-ROMO,Golden Banner campsite access
-ROMO,Golden Banner east campsite access (approx)
-ROMO,Golden Banner west campsite access
-ROMO,Grace Falls Trail
-ROMO,Grand Ditch Road
-ROMO,Grand Ditch Trail
-ROMO,Green Mountain Trail
-ROMO,Green Mtn Trailhead to Onahu Trailhead Trail
-ROMO,Green Ridge Trail
-ROMO,Griffith Homestead
-ROMO,Haiyaha Cutoff Trail
-ROMO,Haynach Lakes Trail
-ROMO,Hidden Falls
-ROMO,Hidden Valley Trail
-ROMO,Hill Road
-ROMO,Hollowell Park Trail
-ROMO,Homestead Meadows Connector Trail
-ROMO,Homestead Meadows Trail
-ROMO,Horse Trail
-ROMO,Husted Trail
-ROMO,Jim's Grove Trail
-ROMO,Kruger Horse Campground Connector
-ROMO,Kruger Rock Trail
-ROMO,Lake Haiyaha Trail
-ROMO,Lake Helene Trail
-ROMO,Lake Irene Trail
-ROMO,Lake Nanita Trail
-ROMO,Lake of the Clouds
-ROMO,Lake of the Clouds Trail
-ROMO,Latrine access path
-ROMO,Lawn Lake Trail
-ROMO,Lawn Lake camp
-ROMO,Lazy H Horse Trail Net
-ROMO,Left Book Climbing Access
-ROMO,Lens Rock Climbing Access
-ROMO,Lily Lake Trail
-ROMO,Lily Mountain Trail
-ROMO,Lily Ridge Trail
-ROMO,Limber Pine Trail
-ROMO,Lion Gulch Trail
-ROMO,Lion Lake Trail
-ROMO,Little Horseshoe Park Trail
-ROMO,Little Yellowstone
-ROMO,Livery Tr ail
-ROMO,Livery Trail
-ROMO,Long Meadows Trail
-ROMO,Longs Peak Trail (The Boulderfield)
-ROMO,Longs Peak Trail (The Homestretch)
-ROMO,Longs Peak Trail (The Ledges)
-ROMO,Longs Peak Trail (The Narrows)
-ROMO,Longs Peak Trail (The Trough)
-ROMO,Lookout Springs Trail
-ROMO,Loomis Lake Trail
-ROMO,Lower Tileston
-ROMO,Lumpy Ridge Trail
-ROMO,MacGregor Falls Trail
-ROMO,Main isle
-ROMO,Marsh Meadow Connector
-ROMO,McGregor Campsites Trail
-ROMO,McLaren Street
-ROMO,Meadow Loop Trail
-ROMO,Meadow Mountain Ranch Trail
-ROMO,Meeker Park Sh Spur Road
-ROMO,Meeker Sale Road
-ROMO,Mill Creek Basin Trail
-ROMO,Mill Creek-Cub Lake Connector
-ROMO,Moose Meadow Trail
-ROMO,Morain Bridge
-ROMO,Moraine Park Nature Trail
-ROMO,Moraine Park Trail
-ROMO,Moraine Tuxedo Cutoff Trail
-ROMO,Mount Ida Trail
-ROMO,Mount Olympus Trail
-ROMO,Mountain Center Connector
-ROMO,Mummy Pass Trail
-ROMO,Neota Creek Trail
-ROMO,North Boundary Trail
-ROMO,North Deer Mountain Trail
-ROMO,North Fork Trail
-ROMO,North Inlet Junction Campsite #1
-ROMO,North Inlet Junction Campsite #2
-ROMO,North Inlet Junction Campsite #3
-ROMO,North Inlet Junction Campsites
-ROMO,North Inlet Junction Privy
-ROMO,North Inlet Trail
-ROMO,North Longs Peak Trail
-ROMO,North St. Vrain camp #2 access
-ROMO,North Supply Loop
-ROMO,North-South Trail
-ROMO,Odessa Lake Campsite Trail
-ROMO,Odessa Lake Trail
-ROMO,Old Bear Lake Road
-ROMO,Old Entrance Livery Trails
-ROMO,Old Ute Trail
-ROMO,Oldman Mountain Trail
-ROMO,Onahu Creek Trail
-ROMO,Onahu to Tonahuto Trail
-ROMO,Ouzel Falls Viewpoint
-ROMO,Ouzel Lake Trail
-ROMO,Pear Climbing Access
-ROMO,Pierson Park Trail
-ROMO,Pine Ridge
-ROMO,Porcupine Campsite
-ROMO,Porcupine Campsite East
-ROMO,Porcupine Campsite West
-ROMO,Poudre River Trail
-ROMO,Privy Access
-ROMO,Rams Horn Trail
-ROMO,Red Mountain Trail
-ROMO,Ridge Trail
-ROMO,River Camp Trail
-ROMO,River Trail
-ROMO,Sage Trail
-ROMO,Saint Vrain Avenue Trail
-ROMO,Sale Loop Road
-ROMO,Sandbeach Lake Campsite access
-ROMO,Sandbeach Lake Trail
-ROMO,Serenity Lane
-ROMO,Shadow Mountain Lookout trail
-ROMO,Sheep Rock Trail
-ROMO,Shelf and Solitude Route
-ROMO,Sky Pond Trail
-ROMO,Sourdough Campsite access trail
-ROMO,South Lateral Moraine Trail
-ROMO,South Tonahutu/Big Meadows/Onahu Creek
-ROMO,Specimen Ditch Trail
-ROMO,Spectacle Lakes
-ROMO,Spitzmiller Kane Trail
-ROMO,Sprague Lake Stable Trail
-ROMO,Sprague Lake Trail
-ROMO,Spruce Lake Trail
-ROMO,Spruce Trail
-ROMO,Storm Pass Trail
-ROMO,Supply Fire Sec 2 Road
-ROMO,Tahosa Camp access trail
-ROMO,The Burn Trail
-ROMO,Thunder Lake CS 1 access
-ROMO,Thunder Lake CS 2 access
-ROMO,Thunder Lake Campsite Access Trail
-ROMO,Thunder Lake Group CS access
-ROMO,Thunder Lake Trail
-ROMO,Thunder Pass Trail
-ROMO,Timber Creek Cmpgnd-Beaver Ponds Picnic Area Trail
-ROMO,Timber Lake Trail
-ROMO,Tonahutu Creek Trail
-ROMO,Trout Bridge
-ROMO,Tundra Communities Trail
-ROMO,Tuxedo Park Trail
-ROMO,Tuxedo Park YMCA Camp Trail
-ROMO,Twin Owls Climbing Access East
-ROMO,Twin Owls Climbing Access West
-ROMO,Twin Sisters Peaks Trail
-ROMO,Twin Sisters Trail
-ROMO,Upper Beaver Meadows Trail
-ROMO,Ute Trail
-ROMO,Valley Trail
-ROMO,Valley and Colorado River Trail
-ROMO,Viewpoint Trail
-ROMO,Vine Street
-ROMO,Walk-in Sites
-ROMO,Walker Homestead Trail
-ROMO,Watanga Lake Trail
-ROMO,West Creek Falls Trail
-ROMO,West Creek Trail
-ROMO,Wild Basin Trail
-ROMO,Wildlife Walk
-ROMO,Willow Cutoff
-ROMO,Willows Trail
-ROMO,Wind River Multi Use
-ROMO,Wind River North
-ROMO,Wind River Pass Trail
-ROMO,Wind River South
-ROMO,Wind River Trail
-ROMO,Ypsilon Lake Trail
-ROMO,Ypsilon Summit Route
-ROMO,cdt
-ROMO,onahu trail
-ROMO,willow's Bridge
-GRSM,Alum Cave Trail
-GRSM,Appalachian Trail
-GRSM,Astra Lumina
-GRSM,Avent Cabin Access
-GRSM,Balsam Point Quiet Walkway
-GRSM,Baskins Creek Cemetery Access Trail
-GRSM,Baskins Creek Trail
-GRSM,Beech Flats Quiet Walkway
-GRSM,Big White Oak Quiet Walkway
-GRSM,Boulevard Trail
-GRSM,Brushy Mountain Trail
-GRSM,Buckeye Trail
-GRSM,Bull Head Trail
-GRSM,Bullhead View Quiet Walkway
-GRSM,Campsite 65 access
-GRSM,Campsite 67 Access Trail
-GRSM,Carver Cemeter Access
-GRSM,Cemetary Trail
-GRSM,Chimney Tops Trail
-GRSM,Cliif Top Trail
-GRSM,Clingmans Dome lookout tower access
-GRSM,Conner @ Hickory Flats Cemetery Access
-GRSM,Cove Hardwood Nature Trail
-GRSM,Cove Mountain Trail
-GRSM,Cucumber Gap Trail
-GRSM,Curry Mountain Trail
-GRSM,Deep Creek Trail
-GRSM,E E McCarter Cemetery
-GRSM,Elkmont Nature Trail
-GRSM,Engine Creek Trail
-GRSM,Fighting Creek Nature Trail
-GRSM,Fork Ridge Trail
-GRSM,Forney Creek Trail
-GRSM,Forney Ridge Trail
-GRSM,Friendship Baptist Church Cemetery Access
-GRSM,Gatlinburg SkyBridge
-GRSM,Goshen Prong Trail
-GRSM,Grapeyard Ridge Trail
-GRSM,Grassy Branch Trail
-GRSM,Gray Wolf Walk
-GRSM,Greenbrier Ridge Trail
-GRSM,Hazel Creek Trail
-GRSM,Hickory Flats Quiet Walkway
-GRSM,Huskey Gap Trail
-GRSM,Jim Carr Place Quiet Walkway
-GRSM,Jump Off Trail
-GRSM,Juney Whank Falls Trail
-GRSM,Kanati Fork Quiet Walkway
-GRSM,Kanati Fork Trail
-GRSM,Kuwohi Bypass Trail
-GRSM,Kuwohi Trail
-GRSM,Lagoon Trail
-GRSM,Lakeview Quiet Walkway
-GRSM,Laurel Falls Quiet Walkway
-GRSM,Laurel Falls Trail
-GRSM,Little Brier Gap Trail
-GRSM,Little Greenbrier Trail
-GRSM,Little River Trail
-GRSM,Meigs Creek Trail
-GRSM,Metcalf Bottoms Trail
-GRSM,Mingus Creek Trail
-GRSM,Miry Ridge Trail
-GRSM,New Beck-Huskey Cemetery Access
-GRSM,Noah 'Bud' Ogle Place Nature Trail
-GRSM,Old Beck Cemetery Access
-GRSM,Old Deep Creek Quiet Walkway
-GRSM,Old Settlers Trail
-GRSM,Porters Creek Trail
-GRSM,R L Williams Way
-GRSM,Rainbow Falls Trail
-GRSM,Ramsey Cascades Trail
-GRSM,Rhodedendron Creek Trail
-GRSM,Riverview Quiet Walkway
-GRSM,Rivewalk Greenway
-GRSM,Road Prong Trail
-GRSM,Rocky Spur Overlook Trail
-GRSM,Rough Creek Trail
-GRSM,Roundtop Trail
-GRSM,Smokemont Loop Trail
-GRSM,Smokemont Nature Trail
-GRSM,Spruce Fir Nature Trail
-GRSM,Stiles Cemetery Access
-GRSM,Sugarland Mountain Trail
-GRSM,Sugarlands Valley Nature Trail
-GRSM,Sweat Heifer Creek Trail
-GRSM,Swinging Bridge Quiet Walkway
-GRSM,Thomas Divide Trail
-GRSM,Thunderhead Prong Quiet Walkway
-GRSM,Trail
-GRSM,Treetop Skywalk
-GRSM,Twin Creeks Trail
-GRSM,Woody-Conner Cemetery Access
-GRSM,fire tower
+park_code,trail_name,length_miles
+YELL,,17.47
+YELL,0A3 Campsite Spur Trail,0.01
+YELL,0D5 Campsite Spur Trail,0.1
+YELL,1A1 Campsite Spur Trail,0.16
+YELL,1A2 Campsite Spur Trail,0.32
+YELL,1A3 Campsite Spur Trail,0.04
+YELL,1B1 Campsite Spur Trail,0.02
+YELL,1C1 Campsite Spur Trail,0.02
+YELL,1C2 Campsite Spur Trail,0.03
+YELL,1C4 Campsite Spur Trail,0.01
+YELL,1C5 Campsite Spur Trail,0.26
+YELL,1F1 Campsite Spur Trail,0.16
+YELL,1F2 Campsite Spur Trail,0.05
+YELL,1G2 Campsite Spur Trail,0.05
+YELL,1G3 Campsite Spur Trail,0.1
+YELL,1G4 Campsite Spur Trail,0.07
+YELL,1G5 Campsite Spur Trail,0.23
+YELL,1R1 Campsite Spur Trail,0.07
+YELL,1R2 Campsite Spur Trail,0.12
+YELL,1R3 Campsite Spur Trail,0.06
+YELL,1Y1 Campsite Spur Trail,0.04
+YELL,1Y2 Campsite Spur Trail,0.05
+YELL,1Y4 Campsite Spur Trail,0.04
+YELL,1Y5 Campsite Spur Trail,0.11
+YELL,1Y6 Campsite Spur Trail,0.44
+YELL,1Y7 Campsite Spur Trail,0.22
+YELL,1Y8 Campsite Spur Trail,0.56
+YELL,1Y9 Campsite Spur Trail,0.08
+YELL,2B1 Campsite Spur Trail,0.67
+YELL,2C1 Campsite Spur Trail,0.08
+YELL,2C3 Campsite Spur Trail,0.13
+YELL,2H1 Campsite Spur Trail,1.1
+YELL,2H2 Campsite Spur Trail,1.15
+YELL,2H4 Campsite Spur Trail,0.65
+YELL,2H5 Campsite Spur Trail,0.07
+YELL,2H6 Campsite Spur Trail,0.06
+YELL,2H7 Campsite Spur Trail,0.05
+YELL,2H8 Campsite Spur Trail,0.54
+YELL,2H9 Campsite Spur Trail,0.06
+YELL,2S1 Campsite Spur Trail,0.58
+YELL,2S2 Campsite Spur Trail,0.04
+YELL,2S3 Campsite Spur Trail,0.14
+YELL,2S4 Campsite Spur Trail,0.11
+YELL,2S6 Campsite Spur Trail,0.03
+YELL,3C2 Campsite Spur Trail,0.12
+YELL,3C3 Campsite Spur Trail,0.2
+YELL,3C4 Campsite Spur Trail,0.13
+YELL,3F1 Campsite Spur Trail,0.07
+YELL,3F2 Campsite Spur Trail,0.02
+YELL,3L1 Campsite Spur Trail,0.18
+YELL,3L2 Campsite Spur Trail,0.15
+YELL,3L3 Campsite Spur Trail,0.11
+YELL,3L4 Campsite Spur Trail,0.07
+YELL,3L6 Campsite Spur Trail,0.16
+YELL,3L7 Campsite Spur Trail,0.09
+YELL,3L9 Campsite Spur Trail,0.09
+YELL,3M1 Campsite Spur Trail,0.26
+YELL,3M2 Campsite Spur Trail,0.18
+YELL,3M3 Campsite Spur Trail,0.06
+YELL,3M4 Campsite Spur Trail,0.03
+YELL,3M5 Campsite Spur Trail,0.23
+YELL,3M6 Campsite Spur Trail,0.06
+YELL,3M7 Campsite Spur Trail,0.05
+YELL,3P1 Campsite Spur Trail,0.1
+YELL,3P2 Campsite Spur Trail,0.04
+YELL,3P3 Campsite Spur Trail,0.02
+YELL,3P4 Campsite Spur Trail,0.06
+YELL,3P5 Campsite Spur Trail,0.08
+YELL,3T1 Campsite Spur Trail,0.07
+YELL,3T2 Campsite Spur Trail,0.06
+YELL,3T3 Campsite Spur Trail,0.21
+YELL,3U1 Campsite Spur Trail,0.26
+YELL,3U2 Campsite Spur Trail,0.13
+YELL,3U3 Campsite Spur Trail,0.16
+YELL,3U4 Campsite Spur Trail,0.2
+YELL,4B4 Campsite Spur Trail,0.03
+YELL,4C1 Campsite Spur Trail,0.27
+YELL,4D1 Campsite Spur Trail,0.02
+YELL,4D2 Campsite Spur Trail,0.05
+YELL,4D3 Campsite Spur Trail,0.01
+YELL,4E1 Campsite Spur Trail,0.04
+YELL,4E2 Campsite Spur Trail,0.04
+YELL,4E3 Campsite Spur Trail,0.02
+YELL,4E4 Campsite Spur Trail,0.14
+YELL,4F1 Campsite Spur Trail,0.03
+YELL,4G2 Campsite Spur Trail,0.14
+YELL,4G3 Campsite Spur Trail,0.01
+YELL,4G4 Campsite Spur Trail,0.07
+YELL,4G5 Campsite Spur Trail,0.04
+YELL,4G6 Campsite Spur Trail,0.04
+YELL,4M2 Campsite Spur Trail,0.05
+YELL,4P1 Campsite Spur Trail,0.02
+YELL,4R1 Campsite Spur Trail,0.07
+YELL,4W1 Campsite Spur Trail,0.03
+YELL,4W2 Campsite Spur Trail,0.02
+YELL,4W3 Campsite Spur Trail,0.02
+YELL,5B1 Campsite Spur Trail,0.08
+YELL,5B2 Campsite Spur Trail,0.05
+YELL,5E1 Campsite Spur Trail,0.07
+YELL,5E2 Campsite Spur Trail,0.13
+YELL,5E3 Campsite Spur Trail,0.12
+YELL,5E4 Campsite Spur Trail,0.11
+YELL,5E6 Campsite Spur Trail,0.04
+YELL,5E7 Campsite Spur Trail,0.3
+YELL,5E8 Campsite Spur Trail,0.15
+YELL,5E9 Campsite Spur Trail,0.15
+YELL,5L2 Campsite Spur Trail,0.12
+YELL,6A2 Campsite Spur Trail,0.58
+YELL,6A3 Campsite Spur Trail,0.47
+YELL,6A4 Campsite Spur Trail,0.04
+YELL,6B1 Campsite Spur Trail,0.21
+YELL,6B2 Campsite Spur Trail,0.04
+YELL,6B4 Campsite Spur Trail,0.33
+YELL,6C1 Campsite Spur Trail,0.04
+YELL,6C2 Campsite Spur Trail,0.97
+YELL,6C3 Campsite Spur Trail,0.13
+YELL,6D1 Campsite Spur Trail,1.08
+YELL,6D3 Campsite Spur Trail,0.29
+YELL,6D5 Campsite Spur Trail,0.09
+YELL,6D6 Campsite Spur Trail,0.19
+YELL,6D7 Campsite Spur Trail,0.07
+YELL,6D8 Campsite Spur Trail,0.1
+YELL,6M3 Campsite Spur Trail,0.03
+YELL,6M4 Campsite Spur Trail,0.06
+YELL,6M7 Campsite Spur Trail,0.09
+YELL,6Y2 Campsite Spur Trail,0.01
+YELL,6Y4 Campsite Spur Trail,2.82
+YELL,6Y5 Campsite Spur Trail,0.27
+YELL,6Y6 Campsite Spur Trail,0.26
+YELL,7G1 Campsite Spur Trail,0.09
+YELL,7G2 Campsite Spur Trail,0.48
+YELL,8B2 Campsite Spur Trail,0.08
+YELL,8B3 Campsite Spur Trail,0.01
+YELL,8B4 Campsite Spur Trail,0.03
+YELL,8B5 Campsite Spur Trail,0.02
+YELL,8C1 Campsite Spur Trail,0.01
+YELL,8C2 Campsite Spur Trail,0.14
+YELL,8C4 Campsite Spur Trail,0.05
+YELL,8C5 Campsite Spur Trail,0.04
+YELL,8C6 Campsite Spur Trail,0.02
+YELL,8C9 Campsite Spur Trail,0.04
+YELL,8G1 Campsite Spur Trail,0.03
+YELL,8H1 Campsite Spur Trail,0.07
+YELL,8H2 Campsite Spur Trail,0.18
+YELL,8H3 Campsite Spur Trail,0.04
+YELL,8H4 Campsite Spur Trail,0.12
+YELL,8H5 Campsite Spur Trail,0.07
+YELL,8H6 Campsite Spur Trail,0.03
+YELL,8J1 Campsite Spur Trail,0.38
+YELL,8J2 Campsite Spur Trail,0.19
+YELL,8J3 Campsite Spur Trail,0.01
+YELL,8J4 Campsite Spur Trail,0.02
+YELL,8J6 Campsite Spur Trail,0.37
+YELL,8M1 Campsite Spur Trail,0.04
+YELL,8M2 Campsite Spur Trail,0.05
+YELL,8P1 Campsite Spur Trail,0.03
+YELL,8P2 Campsite Spur Trail,0.07
+YELL,8R1 Campsite Spur Trail,0.05
+YELL,8R2 Campsite Spur Trail,0.18
+YELL,8R3 Campsite Spur Trail,0.17
+YELL,8R5 Campsite Spur Trail,0.4
+YELL,8S1 Campsite Spur Trail,0.08
+YELL,8S3 Campsite Spur Trail,0.05
+YELL,8T1 Campsite Spur Trail,0.01
+YELL,9A0 Campsite Spur Trail,0.01
+YELL,9A1 Campsite Spur Trail,0.02
+YELL,9A2 Campsite Spur Trail,0.1
+YELL,9A3 Campsite Spur Trail,0.15
+YELL,9A4 Campsite Spur Trail,0.02
+YELL,9A6 Campsite Spur Trail,0.01
+YELL,9A7 Campsite Spur Trail,0.02
+YELL,9B1 Campsite Spur Trail,0.01
+YELL,9B3 Campsite Spur Trail,0.01
+YELL,9B4 Campsite Spur Trail,0.02
+YELL,9B5 Campsite Spur Trail,0.02
+YELL,9B6 Campsite Spur Trail,0.02
+YELL,9B7 Campsite Spur Trail,0.02
+YELL,9B8 Campsite Spur Trail,0.02
+YELL,9B9 Campsite Spur Trail,0.15
+YELL,9C4 Campsite Spur Trail,0.14
+YELL,9C5 Campsite Spur Trail,0.04
+YELL,9C6 Campsite Spur Trail,0.16
+YELL,9D1 Campsite Spur Trail,0.06
+YELL,9D2 Campsite Spur Trail,0.01
+YELL,9D3 Campsite Spur Trail,0.03
+YELL,9D4 Campsite Spur Trail,0.03
+YELL,9M1 Campsite Spur Trail,0.08
+YELL,9M2 Campsite Spur Trail,0.15
+YELL,9U2 Campsite Spur Trail,0.03
+YELL,9U4 Campsite Spur Trail,0.13
+YELL,Agate Creek Trail,4.12
+YELL,Artist Point Overlook Trail,0.15
+YELL,Artist Point-Point Sublime Trail,1.29
+YELL,Artists' Paintpots Trail,0.72
+YELL,Astringent Creek Trail,9.11
+YELL,Avalanche Peak Trail,2.1
+YELL,Bacon Rind Creek Trail,2.12
+YELL,Bannock Ski Trail,2.49
+YELL,Barronette Ski Trail,3.82
+YELL,Basin Creek Cutoff Trail,1.76
+YELL,Beaver Ponds Trail,4.44
+YELL,Bechler Meadows Cutoff Trail,2.54
+YELL,Bechler Meadows Trail,3.66
+YELL,Bechler River Cutoff Trail,1.64
+YELL,Bechler River Trail,25.4
+YELL,Beula Lake Trail,2.66
+YELL,Bighorn Loop Ski Trail,1.79
+YELL,Bighorn Pass Trail,19.31
+YELL,Biscuit Basin Trail,0.52
+YELL,Black Butte Trail,5.86
+YELL,Black Butte-Daly Creek Cutoff Trail,2.18
+YELL,Black Sand Basin Trail,0.35
+YELL,Blacktail Deer Creek Trail,4.01
+YELL,Blacktail Plateau Ski Trail,0.8
+YELL,Blacktail Ponds Spur Trail,2.23
+YELL,Bliss Pass Trail,6.82
+YELL,Bootjack Gap Trail,4.6
+YELL,Boundary Creek Trail,16.54
+YELL,Bridge Bay Campground-Natural Bridge Trail,0.83
+YELL,Brink of Lower Falls Trail,0.36
+YELL,Buffalo Fork Trail,6.35
+YELL,Buffalo Plateau Trail,7.98
+YELL,Bunsen Peak Trail,6.7
+YELL,Cabin Creek Cabin Trail,0.31
+YELL,Cache Creek Cabin Spur Trail,0.01
+YELL,Cache Creek Trail,16.18
+YELL,Cache Lake Trail,0.73
+YELL,Calfee Cabin Trail,0.2
+YELL,Campground Loop Trail,0.9
+YELL,Canoe Lake Trail,3.84
+YELL,Canyon Rim Trail,1.46
+YELL,Cascade Creek Trail,1.68
+YELL,Cascade Creek-Falls River Cutoff Trail,0.42
+YELL,Cascade Lake Trail,2.13
+YELL,Children's Fire Trail,0.01
+YELL,Chittenden Loop Trail,4.76
+YELL,Chittenden Road-Mount Washburn Trail,2.53
+YELL,Clagett Butte Trail,1.04
+YELL,Clear Lake Trail,0.69
+YELL,Clear Lake-Ribbon Lake Trail,3.48
+YELL,Cold Cabin Trail,0.21
+YELL,Colter/Wolverine Trailhead Trail,0.44
+YELL,Connector Hiking Trail,0.09
+YELL,Connector Horse Trail,0.29
+YELL,Connector to Riverside Ski Trails Trail,1.26
+YELL,Cougar Cabin Trail,2.28
+YELL,Cove Cabin Trail,0.08
+YELL,Coyote Creek Trail,5.14
+YELL,Crescent Lake-High Lake Trail,9.17
+YELL,Crevice Creek Trail,1.69
+YELL,Cygnet Lakes Trail,4.11
+YELL,Daly Creek Spur Trail,0.64
+YELL,Daly Creek Trail,4.84
+YELL,DeLacy Creek Trail,7.14
+YELL,Dike Creek Trail,0.66
+YELL,Divide Trail,1.71
+YELL,Dogshead Trail,4.59
+YELL,Down River Loop Cutoff Trail,0.16
+YELL,Down River Loop Trail,3.72
+YELL,Duck Lake Trail,0.42
+YELL,Electric Peak-Southeast Ridge Trail,2.16
+YELL,Elephant Back Trail,2.87
+YELL,Elk Tongue Cabin Trail,0.12
+YELL,Fairy Creek Trail,6.96
+YELL,Fairy Falls Spur Trail,0.02
+YELL,Fairy Falls Trail,8.21
+YELL,Fan Creek Trail,5.91
+YELL,Fawn Pass Cabin Trail,0.12
+YELL,Fawn Pass Spur/Bacon Rind TH Trail,1.32
+YELL,Fawn Pass Trail,20.64
+YELL,Fawn Pass-Bighorn Pass Cutoff Trail,0.86
+YELL,Fern Cascade Loop Trail,2.43
+YELL,Fern Lake Cabin Trail,0.22
+YELL,Fern Lake Trail,3.62
+YELL,Ferris Creek Stock Crossing Trail,0.49
+YELL,Fish Lake-Mountain Ash Cutoff Trail,2.24
+YELL,Fountain Paint Pots Trail,0.69
+YELL,Fox Creek Cabin Spur Trail,0.05
+YELL,Fox Creek Spur Trail,0.06
+YELL,Fox Creek Trail,10.86
+YELL,Frost Lake Trail,5.52
+YELL,Garnet Hill Loop Trail,8.11
+YELL,Garnet Hill Spur Trail,0.18
+YELL,Gneiss Creek Trail,13.92
+YELL,Grand View,0.03
+YELL,Grandview Point Trail,0.32
+YELL,Grebe Lake Trail,3.29
+YELL,Grizzly Lake Trail,4.03
+YELL,Harebell Cutoff Trail,2.07
+YELL,Harlequin Lake Trail,0.47
+YELL,Hawk's Lake Trail,0.53
+YELL,Heart Lake Trail,19.08
+YELL,Heart River Trail,5.6
+YELL,Hellroaring Creek Trail,7.12
+YELL,Hellroaring Stock Cutoff Trail,1.85
+YELL,Hoodoo Basin Trail,9.7
+YELL,Howard Eaton Trail: Fishing Bridge-Canyon,13.43
+YELL,Howard Eaton Trail: Mammoth-Golden Gate,3.93
+YELL,Howard Eaton Trail: Old Faithful-Lone Star Geyser,2.9
+YELL,Howard Eaton Trail:Cascade Lake-Norris Campground,11.12
+YELL,Howell Fork Cabin Trail,0.07
+YELL,Ice Lake Trail,0.74
+YELL,Imperial Meadows Trail,1.6
+YELL,Indian Creek Loop Ski Trail,1.62
+YELL,Kepler Cascade Ski Trail,1.11
+YELL,Kepler Cascades,0.03
+YELL,Lamar River Stock Cutoff Trail,0.91
+YELL,Lamar River Trail,15.37
+YELL,Lava Creek Trail,4.19
+YELL,Lewis River Channel Trail,6.13
+YELL,Lone Geyser Basin Trail,0.0
+YELL,Lone Star Trail,2.67
+YELL,Lookout Point,0.06
+YELL,Lost Lake Horse Spur Trail,0.59
+YELL,Lost Lake Trail,3.97
+YELL,Lower Blacktail Cabin Trail,0.14
+YELL,Lower Falls Overlook,0.1
+YELL,Lower Ford Trail,0.58
+YELL,Lower Geyser Basin Trail,0.44
+YELL,Madison River Boardwalk,0.08
+YELL,Mallard Creek Trail,4.26
+YELL,Mallard Lake Trail,3.53
+YELL,Mammoth Hot Springs Trail,0.08
+YELL,Mammoth Terraces Trail,1.74
+YELL,Mammoth Warming Hut Trail,0.14
+YELL,Mary Lake Cabin Trail,0.01
+YELL,Mary Mountain-Nez Perce Trail,20.12
+YELL,Midway Geyser Basin Trail,0.74
+YELL,Miller Creek Trail,7.59
+YELL,Mist Creek Trail,9.94
+YELL,Monument Geyser Basin Trail,1.2
+YELL,Mount Holmes-Winter Creek Trail,10.72
+YELL,Mount Sheridan Trail,3.33
+YELL,Mount Washburn South Trail,3.49
+YELL,Mount Washburn Spur Trail,5.43
+YELL,Mountain Ash Creek Trail,11.9
+YELL,Mountain Creek Trail,9.84
+YELL,Mountain Creek Triangle Trail,1.54
+YELL,Mud Volcano Trail,0.93
+YELL,Mystic Falls Trail,1.32
+YELL,Natural Bridge Trail,1.38
+YELL,Nez Perce Cabin Trail,0.13
+YELL,Norris Geyser Basin - Norris Campground Trail,0.73
+YELL,Norris Geyser Basin Trail,2.75
+YELL,North Fork Trail,0.32
+YELL,North Rim Trail,2.91
+YELL,North Shore Shoshone Lake Trail,7.93
+YELL,OA1 Campsite Spur Trail,0.01
+YELL,OA2 Campsite Spur Trail,0.05
+YELL,OB2 Campsite Spur Trail,0.01
+YELL,OB3 Campsite Spur Trail,0.09
+YELL,OB4 Campsite Spur Trail,0.1
+YELL,OD1 Campsite Spur Trail,0.07
+YELL,OD2 Campsite Spur Trail,0.03
+YELL,OD3 Campsite Spur Trail,0.05
+YELL,OD4 Campsite Spur Trail,0.21
+YELL,OE1 Campsite Spur Trail,0.02
+YELL,OG1 Campsite Spur Trail,0.06
+YELL,Observation Peak Trail,2.54
+YELL,Observation Point Trail,1.13
+YELL,Old Gardiner Road Trail,0.2
+YELL,One Hour Horse Ride Trail,0.95
+YELL,Opal Terrace Trail,0.06
+YELL,Osprey Falls Trail,3.81
+YELL,Pebble Creek Trail,11.98
+YELL,Pelican Cone Trail,3.85
+YELL,Pelican Creek Nature Trail,0.55
+YELL,Pelican Creek Trail,12.16
+YELL,Pelican Springs Cabin Trail,0.45
+YELL,Pelican Valley Trail,6.87
+YELL,Pitchstone Plateau Trail,16.97
+YELL,Pocket Lake Trail,1.17
+YELL,Powerline Trail,1.95
+YELL,Punch Bowl-Black Sand Basin Trail,0.87
+YELL,Purple Mountain Trail,3.37
+YELL,Raven Creek Cutoff Trail,2.08
+YELL,Red Rocks Lookout,0.31
+YELL,Rescue Creek Trail,7.2
+YELL,Riddle Lake Trail,2.37
+YELL,Robinson Creek Trail,8.66
+YELL,Rocky Ford Cutoff Trail,0.81
+YELL,Roosevelt Lodge-Tower Falls Trail,2.06
+YELL,Sentinel Meadows Trail,1.98
+YELL,Sepulcher Mountain Trail,7.57
+YELL,Seven Mile Hole Trail,4.89
+YELL,Sheepeater Ski Trail,2.75
+YELL,Shoshone Geyser Basin Horse Cutofff Trail,2.17
+YELL,Shoshone Geyser Basin Trail,0.25
+YELL,Shoshone Lake Trail,6.81
+YELL,Silver Cord Cascade Trail,0.1
+YELL,Silver Cord Cascade-4R2 Trail,0.26
+YELL,Sky Rim Trail,10.27
+YELL,Slough Creek Trail,10.13
+YELL,Snake River Canyon Trail,2.56
+YELL,Snake River Cutoff Trail,3.26
+YELL,Snow Pass Trail,2.01
+YELL,Soldier's Trail,1.66
+YELL,Solfatara Creek Trail,7.0
+YELL,Sour Creek Trail,1.69
+YELL,South Boundary Trail: Bechler RS-Grassy Lake Road,6.85
+YELL,South Boundary Trail: Grassy Lake-South Entrance,8.12
+YELL,South Boundary Trail: Harebell-Fox Creek Trail,10.42
+YELL,South Boundary Trail: Lynx Creek,13.21
+YELL,South Boundary Trail: South Entrance-Harebell,12.14
+YELL,South Rim Trail,1.87
+YELL,South Shore Shoshone Lake Trail,8.7
+YELL,Specimen Creek Trail,8.62
+YELL,Specimen Ridge Trail,16.99
+YELL,Sportsman Lake Cabin Spur Trail,0.18
+YELL,Sportsman Lake Trail,19.12
+YELL,Spring Creek Trail,3.87
+YELL,Stagecoach Road Trail,1.67
+YELL,Storm Point Trail,2.04
+YELL,Sulphur Caldron Trail,0.17
+YELL,Summit Lake Trail,15.83
+YELL,Terrace Springs Trail,0.16
+YELL,Terraced Falls Trail,1.43
+YELL,Thorofare Cabin Trail,0.22
+YELL,Thorofare Trail,32.84
+YELL,Thorofare-South Boundary Cutoff Trail,1.05
+YELL,Three Rivers Cabin-9B9 Trail,0.13
+YELL,Three Senses Nature Trail,0.07
+YELL,Thunderer Cutoff Trail,4.98
+YELL,Tower Creek Trail,3.48
+YELL,Tower Falls Trail,2.54
+YELL,Trail Creek Cabin Trail,0.25
+YELL,Trail Creek Trail,21.44
+YELL,Trail Creek-Two Ocean Cutoff Trail,1.48
+YELL,Trilobite Lake Trail,2.3
+YELL,Trout Lake Trail,0.85
+YELL,Turbid Lake Trail,6.49
+YELL,Twister Falls Trail,0.08
+YELL,Two Hour Horse Ride Trail,1.77
+YELL,Two Ocean Plateau Trail,11.67
+YELL,Two Ribbons Trail,0.65
+YELL,UGB-Biscuit Basin Trail,3.13
+YELL,UGB-Riverside Geyser Overlook Trail,0.12
+YELL,Uncle Tom's Trail,0.44
+YELL,Union Falls Trail,2.05
+YELL,Unnamed,0.05
+YELL,Up River Loop Trail,1.62
+YELL,Upper Ford Trail,0.72
+YELL,Upper Geyser Basin Trail,2.5
+YELL,Upper Geyser Hill Trail,0.88
+YELL,Upper Miller Creek Cabin Trail,0.06
+YELL,Upper Pelican Creek Cutoff Trail,1.08
+YELL,WA1 Campsite Spur Trail,0.08
+YELL,WB1 Campsite Spur Trail,0.06
+YELL,WB3 Campsite Spur Trail,0.12
+YELL,WB4 Campsite Spur Trail,0.02
+YELL,WB6 Campsite Spur Trail,0.05
+YELL,WC2 Campsite Spur Trail,0.03
+YELL,WC3 Campsite Spur Trail,0.12
+YELL,WC4 Campsite Spur Trail,0.01
+YELL,WD2 Campsite Spur Trail,0.02
+YELL,WD3 Campsite Spur Trail,0.31
+YELL,WD4 Campsite Spur Trail,0.03
+YELL,WD5 Campsite Spur Trail,0.14
+YELL,WD6 Campsite Spur Trail,0.2
+YELL,WE1 Campsite Spur Trail,0.01
+YELL,WE4 Campsite Spur Trail,0.02
+YELL,WE5 Campsite Spur Trail,0.11
+YELL,WE7 Campsite Spur Trail,0.04
+YELL,WF1 Campsite Spur Trail,0.16
+YELL,WF2 Campsite Spur Trail,0.1
+YELL,Wapiti Lake Trail,16.29
+YELL,West Thumb Geyser Basin Trail,0.85
+YELL,West Thumb Overlook Loop Trail,1.47
+YELL,Wolf Lake Trail,1.29
+YELL,Wraith Falls Trail,0.33
+YELL,Wrangler Lake Trail,2.42
+YELL,YCC Trail,1.08
+YELL,Yellowstone Meadows Cutoff Trail,1.19
+YELL,Yellowstone River Overlook Trail,1.91
+YELL,Yellowstone River Trail,15.53
+YOSE,Alder Creek Trail,2.74
+YOSE,Anne Lake Trail,0.4
+YOSE,Babcock Lake Trail,0.47
+YOSE,Base Line Camp Road,0.89
+YOSE,Bernice Lake Trail,0.53
+YOSE,Big Trees Loop Trail,0.16
+YOSE,Bike Path,7.03
+YOSE,Bishop Creek Trail,1.24
+YOSE,Bloody Canyon Trail,0.85
+YOSE,Booth Lake Trail,0.25
+YOSE,Boundary Lake Spur,0.63
+YOSE,Bridalveil Fall Trail,0.67
+YOSE,Buckeye Pass,0.68
+YOSE,Camp 4 East,0.17
+YOSE,Camp 4 West,0.38
+YOSE,Camp Mather Trail,1.83
+YOSE,Carlon Falls Trail,1.46
+YOSE,Chilnualna Falls Trail,4.11
+YOSE,Chinquapin Trail,2.54
+YOSE,Chiquito Pass,2.68
+YOSE,Cook's Meadow Loop,0.36
+YOSE,Cottonwood Meadow Trail,3.97
+YOSE,Crescent Lake Trail,0.12
+YOSE,Deer Camp Road,8.37
+YOSE,Dog Lake Trail,0.23
+YOSE,El Capitan Climbing Access,0.17
+YOSE,El Capitan Trail,5.32
+YOSE,Eleanor Creek Gaging Station Trail,0.37
+YOSE,Eleven Mile Road,3.0
+YOSE,Elizabeth Lake,0.06
+YOSE,Elizabeth Lake Trail,2.1
+YOSE,Emeric Lake Trail,0.45
+YOSE,Fernandez Pass,0.65
+YOSE,Four Mile Road,2.02
+YOSE,Four Mile Trail,4.78
+YOSE,Gaylor Lakes Trail,1.88
+YOSE,Grant Lakes Trail,1.21
+YOSE,Gravel Pit Lake Trail,0.64
+YOSE,Green Creek Trail,10.23
+YOSE,Grizzly Giant ADA Trail,0.12
+YOSE,Grizzly Giant Loop Trail,1.24
+YOSE,Grizzly Trail,1.01
+YOSE,Grouse Lake Trail,0.09
+YOSE,Guardians of the Grove Loop Trail,1.0
+YOSE,Half Dome Trail,2.0
+YOSE,Happy Isles Loop Road,1.26
+YOSE,Huckleberry Trail,7.53
+YOSE,Indian Village of the Ahwahnee Footpath,0.05
+YOSE,Indian Village of the Ahwahnee Paved Path,0.11
+YOSE,Ireland Lake Trail,1.52
+YOSE,Iron Creek Trail,2.52
+YOSE,Isberg Pass,0.06
+YOSE,Isberg Trail,3.23
+YOSE,John Muir Trail,24.0
+YOSE,Johnson Lake Trail,0.15
+YOSE,Kendrick Creek Trail,0.85
+YOSE,Kibbie Ridge Trail,7.22
+YOSE,Lembert Dome Trail,0.46
+YOSE,Lower Yosemite Fall Trail,1.37
+YOSE,Lukens Lake Trail,1.74
+YOSE,Mariposa Grove Road,2.71
+YOSE,Mariposa Grove Trail,3.49
+YOSE,May Lake Trail,1.12
+YOSE,McCabe Lakes Trail,2.14
+YOSE,McGurk Meadow Trail,1.9
+YOSE,Merced Grove Trail (Old Coulterville Rd),2.46
+YOSE,Miguel Meadow Fire Road,7.07
+YOSE,Mirror Lake Interpretive Loop,0.27
+YOSE,Mirror Lake Loop,3.41
+YOSE,Mirror Lake Old Carriage Trail,0.43
+YOSE,Mirror Lake Road,0.83
+YOSE,Mist Trail,1.58
+YOSE,Mount Hoffman Trail,1.68
+YOSE,Mule Pass,1.27
+YOSE,NPS Corral Stock Trail,0.12
+YOSE,North Dome Trail,4.12
+YOSE,North Pines Campground Footpath,0.23
+YOSE,Old Big Oak Flat Road,0.52
+YOSE,Old Big Oak Flat Road (Gentry Rd),1.92
+YOSE,Old Big Oak Flat Road Trail,3.81
+YOSE,Old Coulterville Road,0.6
+YOSE,Old Glacier Point Road,3.21
+YOSE,Old Tioga Road,12.75
+YOSE,Old Wawona Road,1.53
+YOSE,Olmsted Point Spur,0.07
+YOSE,Overlook Trail,0.3
+YOSE,Pacific Crest Trail,60.55
+YOSE,Pacific Crest Trail/John Muir Trail,17.02
+YOSE,Panorama Trail,2.06
+YOSE,Peeler Lake Trail,1.97
+YOSE,Perimeter Trail,4.62
+YOSE,Pohono Trail,11.82
+YOSE,Poopenaut Valley Trail,1.06
+YOSE,Post Peak Pass,0.45
+YOSE,Quartz Mountain Trail,0.31
+YOSE,Red Peak Pass,11.36
+YOSE,Robinson Creek Trail,9.18
+YOSE,Rockslides,4.34
+YOSE,Rutherford Lake Trail,0.25
+YOSE,Sachse Cabin Trail,0.18
+YOSE,Sentinel Boardwalk,0.11
+YOSE,Sentinel Dome Trail,0.41
+YOSE,Smith Peak Trail,1.57
+YOSE,Snow Creek Trail,10.15
+YOSE,South Fork Merced Trail,3.2
+YOSE,Spillway Lake Trail,1.87
+YOSE,Stock Trail,1.19
+YOSE,Stoneman Meadow Boardwalk,0.16
+YOSE,Summit Lake Trail,1.03
+YOSE,Summit Pass,1.06
+YOSE,Tamarack Flat Trail,2.23
+YOSE,Tenaya Beach Trail,0.19
+YOSE,Tenaya Lake Sidewalk,1.12
+YOSE,The Ahwahnee Cottages Paved Path,0.21
+YOSE,Tranquility Trail,0.01
+YOSE,Tunnel Tree Trail,0.14
+YOSE,Tunnel Tree Trail Spur,0.03
+YOSE,Tuolumne Grove Loop Trail,0.36
+YOSE,Tuolumne Grove Road,1.15
+YOSE,Unnamed,619.21
+YOSE,Valley Loop Trail,15.8
+YOSE,Virginia Pass,1.62
+YOSE,Washburn Trail,1.93
+YOSE,Wawona Meadow Loop Trail,3.4
+YOSE,Wawona Swinging Bridge Trail,0.94
+YOSE,West Lake Trail,1.36
+YOSE,Yosemite Falls Trail,3.01
+GRCA,Angels Window,0.07
+GRCA,Ariel Point,2.67
+GRCA,Arizona,40.79
+GRCA,Beamer,9.97
+GRCA,Bill Hall,2.53
+GRCA,Boucher,5.56
+GRCA,Boundary Road,14.2
+GRCA,Brady Hollow,12.13
+GRCA,Bridal Path,1.94
+GRCA,Bright Angel,7.88
+GRCA,Bright Angel Point,0.24
+GRCA,Cape Final,2.08
+GRCA,Cape Royal,0.43
+GRCA,Cape Solitude,15.27
+GRCA,Clear Creek,8.63
+GRCA,Cliff Spring,0.42
+GRCA,Colorado River,52.64
+GRCA,Cottonwood,0.23
+GRCA,Cottonwood Creek,1.67
+GRCA,Deer Creek,3.22
+GRCA,Desert View Walkways,0.01
+GRCA,Dripping Springs,1.58
+GRCA,East Tonto,33.79
+GRCA,Escalante,11.18
+GRCA,Francois Matthes,4.66
+GRCA,Grand Canyon Visitor Center,0.81
+GRCA,Grandview,4.35
+GRCA,Greenland Lake,0.16
+GRCA,Hance Creek,1.52
+GRCA,Havasu Canyon,3.56
+GRCA,Havasupai Gardens Trails,0.58
+GRCA,Headquarters Rim Spur,0.39
+GRCA,Hermit,6.38
+GRCA,Hermit Creek,1.47
+GRCA,Hermit Road Greenway,2.81
+GRCA,Hermit Road Greenway Spur,0.01
+GRCA,Hermits Rest Access,0.52
+GRCA,Kaibab Greenway,2.22
+GRCA,Ken Patrick,9.79
+GRCA,Komo Point,5.04
+GRCA,Long Jim,5.0
+GRCA,Maricopa Point,0.12
+GRCA,Mather Campground,0.57
+GRCA,Mather Campground (Spur),0.01
+GRCA,Mather Point,0.66
+GRCA,McKee Amphitheater,0.17
+GRCA,Mohave Loop,0.13
+GRCA,Monument Creek,1.31
+GRCA,Nankoweap,9.47
+GRCA,Nankoweap Delta,2.46
+GRCA,Nankoweap Granary,0.65
+GRCA,Nature,0.34
+GRCA,New Hance,5.86
+GRCA,North Bass,11.89
+GRCA,North Kaibab,14.46
+GRCA,North Rim Amphitheater,0.12
+GRCA,Old Bright Angel,5.07
+GRCA,Page Springs,0.07
+GRCA,Phantom Ranch Area,1.87
+GRCA,Plateau Point,1.44
+GRCA,Point Imperial,2.69
+GRCA,Powell Plateau,3.25
+GRCA,Powell Point,0.11
+GRCA,Ribbon Falls,0.25
+GRCA,Rim,12.87
+GRCA,Rim Alternate 1,0.04
+GRCA,Rim Alternate 2,0.11
+GRCA,Rim to Bright Angel Connector,0.06
+GRCA,River,1.8
+GRCA,Roaring Springs,0.28
+GRCA,Roosevelt Point Loop,0.23
+GRCA,Saddle Canyon,1.4
+GRCA,Saddle Horse Loop,1.07
+GRCA,Saddle Mountain,2.38
+GRCA,Schmutz Spring,2.08
+GRCA,Shoshone,2.05
+GRCA,Silver Bridge,0.27
+GRCA,South Bass,6.78
+GRCA,South Canyon,5.71
+GRCA,South Entrance Spur,0.18
+GRCA,South Kaibab,6.47
+GRCA,Stone Creek,0.25
+GRCA,Surprise Valley,0.45
+GRCA,Tanner,7.72
+GRCA,Tapeats Creek,2.37
+GRCA,Thunder River,12.36
+GRCA,Tiyo Point,6.32
+GRCA,Trailer Village,0.43
+GRCA,Trailer Village (Spur 1),0.01
+GRCA,Trailer Village (Spur 2),0.01
+GRCA,Trailer Village Greenway Spur,0.12
+GRCA,Transept,1.94
+GRCA,Tuckup,3.03
+GRCA,Tuckup Alternate,1.2
+GRCA,Tusayan Greenway,6.43
+GRCA,Tusayan Ruins Loop,0.37
+GRCA,Uncle Jim,2.48
+GRCA,Unkar Delta,0.85
+GRCA,Village Greenway,2.48
+GRCA,Village Loop,1.38
+GRCA,Waldron,2.7
+GRCA,Walhalla Glades,7.62
+GRCA,Walhalla Ruins,0.08
+GRCA,West Tonto,57.98
+GRCA,Whitmore,0.93
+GRCA,Widforss Point,4.79
+ZION,Access to Grotto Trail,0.05
+ZION,Angels Landing Trail,0.49
+ZION,Archeology Trail,0.14
+ZION,Barney's Trail,0.26
+ZION,Bridge,0.03
+ZION,Cable Mountain,1.71
+ZION,Campground Trail,0.22
+ZION,Canyon Overlook Trail,0.48
+ZION,Chinle Trail,1.32
+ZION,Connector Trail,3.96
+ZION,Court of Patriarchs Overview Trail,0.06
+ZION,Deertrap Mountain Trail,3.86
+ZION,East Mesa Trail,4.37
+ZION,East Rim Trail,10.48
+ZION,Footbridge Trail,0.03
+ZION,Hidden Canyon Trail,0.44
+ZION,Hop Valley Trail,6.48
+ZION,Kayenta Trail,0.67
+ZION,Kolob Arch Trail,0.57
+ZION,Lower Emerald Pools Trail,0.66
+ZION,Lower Kayenta Trail,0.12
+ZION,Middle Emerald Pools Trail,0.91
+ZION,Middle Taylor Creek Trail,2.39
+ZION,Museum Trail,0.16
+ZION,Northgate Peaks Trail,1.09
+ZION,Observation Point Trail,0.37
+ZION,Pa'rus Trail,0.03
+ZION,Pathways,0.38
+ZION,Pedestrian Entrance Bridge,0.01
+ZION,Riverside Walk,0.97
+ZION,Sand Bench Trail,0.02
+ZION,Sawmill Springs Trail,0.33
+ZION,Scoggins Wash Trail,1.26
+ZION,Stave Spring Trail,0.51
+ZION,Telephone Canyon,2.51
+ZION,Timber Creek Trail,0.62
+ZION,Upper Emerald Pools Trail,0.22
+ZION,Upper Kayenta Trail,0.11
+ZION,Visitor Center Area Pathways,0.81
+ZION,Watchman Trail,1.77
+ZION,Weeping Rock Trail,0.15
+ZION,West Rim Trail,14.41
+ZION,Wildcat Canyon,5.73
+ZION,Wrangler Trail,0.91
+ROMO,Abandoned Beaver Colony Boardwalk,0.06
+ROMO,Access To Finch Lake Trail,0.74
+ROMO,Adams Falls Trail,0.15
+ROMO,Allenspark - Confusion Junction Trail,1.68
+ROMO,Allenspark - Finch Lake Trail Connector,0.32
+ROMO,Alluvial Fan Trail,0.29
+ROMO,Alpine Ridge Trail,0.31
+ROMO,Andrews Glacier Trail,0.96
+ROMO,Aspen Brook Trail,2.24
+ROMO,Aspenglen Campground Trail,0.24
+ROMO,Balanced Rock Trail,0.97
+ROMO,Baldpate - Wind River Pass Trail,0.51
+ROMO,Bear Lake - Dream/Haiyaha Junction Trail,0.97
+ROMO,Bear Lake - Glacier Gorge Junction - Loch Mills Junction Trail,2.13
+ROMO,Bear Lake Loop Trail,0.64
+ROMO,Bear Lake To Bierstadt Junction Trail,0.31
+ROMO,Beaver Meadows - Deer Ridge Parking Trail,1.01
+ROMO,Beaver Meadows / Moraine Park Complex Trail,15.07
+ROMO,Bierstadt Lake Trail,2.94
+ROMO,Black Canyon / Cow Creek Connector Trail,1.64
+ROMO,Black Canyon Tr,0.81
+ROMO,Black Lake Trail,2.61
+ROMO,Bluebird Lake Trail,3.22
+ROMO,Boulder Brook Trail,2.09
+ROMO,Boulder Field Trail,1.39
+ROMO,Bowen / Baker Usfs Access Trail,0.61
+ROMO,Bridel Veil Falls Trail,1.08
+ROMO,Buck Creek Trail,1.81
+ROMO,Calypso Cascades - Confusion Junction Trail,1.26
+ROMO,Chapin Pass Climbers Access Trail,0.64
+ROMO,Chasm Falls Trail,0.06
+ROMO,Chasm Lake Trail,0.86
+ROMO,Circle C - Eugenia Mine Trail,0.27
+ROMO,Colorado River Trail,3.38
+ROMO,Columbine Ranch - Moore Park Trail,0.67
+ROMO,Comanche Peak Trail,2.32
+ROMO,Confusion Junction - Pear Lake Trial,3.98
+ROMO,Connector Trail Between Wb-22 And Wb-23,0.88
+ROMO,Continental Divide National Scenic Trail - Bowen Gulch Connector Trail,2.95
+ROMO,Copeland Lake - Wild Basin Trail,2.25
+ROMO,Coyote Valley Trail,0.63
+ROMO,Dream Lake - Lake Haiyaha Trail,1.57
+ROMO,East And West Deer Mountain Trail,6.17
+ROMO,East Inlet Tr,1.52
+ROMO,East Shore Tr,0.58
+ROMO,East Shore Trail,8.69
+ROMO,Estes Cone Junction - Moore Park Trail,0.68
+ROMO,Estes Cone Tr,0.62
+ROMO,Eugenia Mine Trail,1.33
+ROMO,Fall River - Little Horseshoe Park Complex Trail,3.75
+ROMO,Fern Lake Trailhead - The Pool Trail,1.69
+ROMO,Finch Lake Trailhead - Confusion Junction Trail,2.26
+ROMO,Flattop Mountain Trail,4.0
+ROMO,Flattop Mountain Trail Junction - Cub Lake,3.55
+ROMO,Forest Canyon Overlook Trail,0.12
+ROMO,"Gem Lake, West Access Trail",0.61
+ROMO,Glacier Basic C. G. - Sprague Lake Trail,0.63
+ROMO,Glacier Creek Stables Trail,0.16
+ROMO,Glacier Creek To Storm Pass Trail,3.61
+ROMO,Glacier Creek Trail,2.66
+ROMO,Glacier Gorge Trail,0.26
+ROMO,Green Mountain Trail,2.43
+ROMO,Haynach Lakes Trail,1.44
+ROMO,Hidden Valley Accessible Trail,0.35
+ROMO,Hidden Valley Trail,0.02
+ROMO,Hitchens Gulch / Lake Of The Clouds Trail,1.38
+ROMO,Horsetooth Peak Trail,2.22
+ROMO,Jims Grove - Granite Pass Trail,1.06
+ROMO,Keyhole Route,1.11
+ROMO,Lake Haiyaha To Mills/Loch Junction Trail,1.08
+ROMO,Lake Irene Trail,0.4
+ROMO,Lake Irene Trails,0.15
+ROMO,Lily Lake Trail,1.19
+ROMO,Lily Ridge Trail,0.73
+ROMO,Lion Lake Junction - Thunder Lake Trail,1.85
+ROMO,Lion Lake Trail,2.17
+ROMO,Little Horseshoe Park - Lawn Lake Trailhead Trail,1.55
+ROMO,Little Yellowstone Trail,1.72
+ROMO,Livery Tr,0.71
+ROMO,Livery Trail,2.47
+ROMO,Livery Trail To Copeland Falls Trail,0.45
+ROMO,Lock/Mills Junction To Andrews/Sky Pond Junction Trail,1.46
+ROMO,Long Meadows Trail,2.35
+ROMO,Longs Peak Ranger Station - Jims Grove Trail,3.32
+ROMO,Lower Black Canyon Trail,2.28
+ROMO,Lower Cow Creek Trail,1.93
+ROMO,Lower Crystal Lake Trail,0.95
+ROMO,Lower East Inlet Trail,5.04
+ROMO,Lower Gem Lake Trail,0.8
+ROMO,Lower Lawn Lake Trail,5.51
+ROMO,Lower Lost Lake Trail,3.07
+ROMO,Lulu City Network Trail,1.77
+ROMO,Lumpy Ridge Climber Access,1.54
+ROMO,Lumpy Ridge Climber Access Trails,1.24
+ROMO,Lumpy Ridge Trail,0.68
+ROMO,Macgregor Falls,0.83
+ROMO,Mirror Lake,1.47
+ROMO,Moraine Park,2.7
+ROMO,Moraine Park - Mill Creek Basin,4.09
+ROMO,Moraine Park Museum Trails,0.38
+ROMO,Mount Ida,0.15
+ROMO,"Mummy Pass, Lower",2.99
+ROMO,"Mummy Pass, Upper",3.45
+ROMO,Nanita/Nakoni,3.08
+ROMO,New Storm Pass,2.9
+ROMO,"North Boundary, Upper",5.71
+ROMO,North Deer Mountain,4.58
+ROMO,North Gem Lake/Cow Creek,2.73
+ROMO,North Inlet Flattop Junction,160.15
+ROMO,North Inlet-Flattop Junction,8.81
+ROMO,North Longs Peak - Lower,2.2
+ROMO,North Longs Peak - Upper,3.18
+ROMO,North St. Vrain Campsite,1.34
+ROMO,Odessa Lake - Flattop Mtn. Junc.,2.95
+ROMO,Old Entrance Livery Trails,0.87
+ROMO,Onahu Creek,2.82
+ROMO,Ouzel Lake,0.46
+ROMO,Pear Lake-Lower Hutcheson Lake,0.77
+ROMO,"Poudre River, Lower",0.45
+ROMO,"Poudre River, Middle",3.63
+ROMO,Red Mountain,2.62
+ROMO,Sandbeach Lake,4.28
+ROMO,Sewerline/Snowmobile Access Trail,0.88
+ROMO,Shadow Mountain,3.15
+ROMO,Skeleton Gulch,1.45
+ROMO,Sky Pond,0.71
+ROMO,South Tonahutu/Big Meadows/Onahu Creek,6.3
+ROMO,Sprague Lake Connector Trails,2.15
+ROMO,Sprague Lake Loop,0.84
+ROMO,Spruce Lake/Loomis Lake,0.74
+ROMO,St. Vrain Mountain,0.34
+ROMO,"Stormy Peaks, South",3.83
+ROMO,The Pool - Cub Lake Trailhead,3.46
+ROMO,The Pool/Odessa Lake,3.11
+ROMO,The Saddle,1.13
+ROMO,Thunder Lake - Timberline,1.41
+ROMO,Thunder Pass,2.66
+ROMO,Timber Creek Cmpgnd-Beaver Ponds Picnic Area,0.56
+ROMO,Timber Lake,4.88
+ROMO,Toll Memorial Trail,0.58
+ROMO,Tonahutu Creek-Flattop Junction,8.67
+ROMO,Tuxedo Park - Ymca Camp,1.66
+ROMO,Twin Sisters Tr,3.37
+ROMO,Upper Black Canyon Trail,4.68
+ROMO,Upper Crystal Lake Trail,0.52
+ROMO,Upper East Inlet Trail,1.52
+ROMO,Upper Gem Lake Trail,1.2
+ROMO,Upper Lawn Lake Trail,0.63
+ROMO,Upper Lost Lake Trail,1.75
+ROMO,Ute Trail (West),0.58
+ROMO,Ute Trail East,4.67
+ROMO,Ute Trail West,3.4
+ROMO,Utility Area Trails,0.46
+ROMO,V.T.S. Lot To Bierstadt Trail,1.36
+ROMO,V.T.S. Lot To Bierstadt Trailhead,1.34
+ROMO,Valley And River Network,5.92
+ROMO,West Creek Falls,0.67
+ROMO,West Glacier Creek,2.11
+ROMO,Wild Basin R.S. - Lion Lake Junction,4.85
+ROMO,Wind River,2.21
+ROMO,Ymca Camp - Glacier Basin C.G.,1.48
+ROMO,Ypsilon Lake,2.87
+GRSM,#67 Goldmine Branch Access,0.19
+GRSM,Abrams Falls Trail,4.21
+GRSM,Ace Gap Trail,5.37
+GRSM,Albright Grove NatureTrail,0.63
+GRSM,Alum Cave Trail,4.9
+GRSM,Alum Cave trailhead,0.05
+GRSM,Anthony Creek Trail,3.24
+GRSM,Appalachian Trail,71.08
+GRSM,Avent Cabin access,0.13
+GRSM,"Backcountry Camp 32, Injun Creek Access",0.07
+GRSM,Balsam Mountain Nature Trail,0.66
+GRSM,Balsam Mountain Trail,9.98
+GRSM,Balsam Point Quiet Walkway,0.31
+GRSM,Baskins Creek Cemetery Access Trail,0.13
+GRSM,Baskins Creek Trail,2.97
+GRSM,Baxter Creek Trail,6.42
+GRSM,Bear Creek Trail,5.78
+GRSM,Beard Cane Trail,4.17
+GRSM,Beech Flats Quiet Walkway,0.49
+GRSM,Beech Gap Trail,5.31
+GRSM,Bell Branch Concession Horse Trail,1.13
+GRSM,Big Creek Horse,0.3
+GRSM,Big Creek Trail,6.29
+GRSM,Big Dudley Concession Horse Trail,2.62
+GRSM,Big Fork Ridge Trail,3.16
+GRSM,Big White Oak Quiet Walkway,0.47
+GRSM,Bone Valley Trail,1.8
+GRSM,Boogerman Trail,4.02
+GRSM,Bote Mountain Trail,6.85
+GRSM,Boulevard Trail,5.25
+GRSM,Bradley Fork Trail,7.23
+GRSM,Brushy Mountain Trail,4.82
+GRSM,Buchanan Cemetery Access Trail,0.39
+GRSM,Bullhead Trail,5.76
+GRSM,Bullhead View Quiet Walkway,0.12
+GRSM,Cabin Flats Trail,0.99
+GRSM,Cades Cove Horse Trail,1.96
+GRSM,Cades Cove Nature Trail,0.81
+GRSM,Caldwell Fork Trail,5.43
+GRSM,Camel Gap Trail,4.11
+GRSM,Campsite 16 access,0.1
+GRSM,Campsite 65 Access Trail,0.12
+GRSM,Campsite 98 Access Trail,0.09
+GRSM,Cane Creek Trail,2.14
+GRSM,Carson-Messer Cemetery Access,0.1
+GRSM,Carver Cemeter Access,0.26
+GRSM,Cataloochee Divide Trail,6.38
+GRSM,Cataloochee Horse Trail,3.16
+GRSM,Chambers Cemetery Access,0.63
+GRSM,Chasteen Creek Trail,4.08
+GRSM,Chestnut Branch Trail,2.05
+GRSM,Chestnut Top Trail,4.25
+GRSM,Chimney Tops Trail,2.02
+GRSM,Cliff Top viewpoint access,0.19
+GRSM,Cold Spring Gap Trail,4.04
+GRSM,Conner @ Hickory Flats Cemetery Access,0.19
+GRSM,Conner Cemetery Access,0.13
+GRSM,Cooper Road Trail,10.48
+GRSM,Cosby Horse Trail,0.59
+GRSM,Cosby Nature Trail,0.57
+GRSM,Cove Hardwood Nature Trail,0.67
+GRSM,Cove Mountain Trail,8.49
+GRSM,Crib Gap Trail,1.77
+GRSM,Crooked Arm Ridge Trail,2.13
+GRSM,Cucumber Gap Trail,2.34
+GRSM,Curry Mountain Trail,3.32
+GRSM,Davenport Gap Shelter access,0.07
+GRSM,Deep Creek Horse Trail,1.63
+GRSM,Deep Creek Trail,13.95
+GRSM,Deeplow Gap Trail,6.03
+GRSM,Doc Caldwell Cemetery Access,0.1
+GRSM,Dry Sluice Gap Trail,4.11
+GRSM,Duds Branch Concession Horse Trail,1.52
+GRSM,Duds Branch Spur Concession Horse Trail,0.12
+GRSM,Eagle Creek Trail,8.63
+GRSM,Elijah Oliver Cabin Access Trail,0.26
+GRSM,Elkmont Nature Trail,0.72
+GRSM,Enloe Creek Trail,3.53
+GRSM,Enloe-Mingus Cemetery Access,0.06
+GRSM,Fairfax/Old Payne (Palmer) Access,0.08
+GRSM,Ferguson Cabin Horse Trail,0.54
+GRSM,Ferguson Cabin Trail,0.54
+GRSM,Fighting Creek Nature Trail,1.21
+GRSM,Finley Cane Trail,2.72
+GRSM,Flat Creek Trail,2.6
+GRSM,Floyd Cemetery Access,0.04
+GRSM,Floyd Cemetery Access Trail,0.03
+GRSM,Foothills Spur Trail,0.37
+GRSM,Fork Ridge Trail,5.02
+GRSM,Forney Creek Trail,11.16
+GRSM,Forney Ridge Trail,5.34
+GRSM,Friendship Baptist Church Cemetery Access,0.08
+GRSM,Gabes Mountain Trail,6.81
+GRSM,Gatlinburg Trail,1.38
+GRSM,Gold Mine Trail,0.98
+GRSM,Goldmine Loop Trail,2.02
+GRSM,Goshen Prong Trail,7.45
+GRSM,Grapeyard Ridge Trail,7.51
+GRSM,Grassy Branch Concession Horse Trail,2.0
+GRSM,Grassy Branch Trail,4.01
+GRSM,Greenbrier Ridge Trail,4.14
+GRSM,Gregory Bald Trail,7.2
+GRSM,Gregory Ridge Trail,4.85
+GRSM,Gunter Fork Trail,4.0
+GRSM,Hannah Mountain Trail,9.39
+GRSM,Hatcher Mountain Trail,2.76
+GRSM,Hazel Creek Trail,15.12
+GRSM,Hemphill Bald Trail,8.33
+GRSM,Hickory Flats Quiet Walkway,0.19
+GRSM,High Rocks Trail,0.31
+GRSM,Hughes Ridge Trail,5.07
+GRSM,Huskey Gap Trail,4.13
+GRSM,Hyatt Ridge Trail,4.43
+GRSM,Indian Creek Motor Trail,1.8
+GRSM,Indian Creek Trail,3.67
+GRSM,Indian Grave Gap Trail,3.65
+GRSM,Jakes Creek Trail,3.62
+GRSM,Jenkins Ridge Trail,8.8
+GRSM,John Carr Place Quiet Walkway,0.15
+GRSM,John Oliver Cabin access,0.02
+GRSM,Jonas Creek Trail,4.04
+GRSM,Juney Whank Falls Trail,0.46
+GRSM,Kanati Fork Quiet Walkway,0.18
+GRSM,Kanati Fork Trail,2.88
+GRSM,Kephart Prong Trail,1.98
+GRSM,Kuwohi Bypass Trail,0.52
+GRSM,Kuwohi Trail,0.8
+GRSM,Lake Shore Trail low water access,0.22
+GRSM,Lakeshore Trail,34.26
+GRSM,Laney Cemetery Access,0.07
+GRSM,Laurel Falls Quiet Walkway,0.34
+GRSM,Laurel Falls Trail,3.98
+GRSM,Lawson Cemetery Access Trail,0.09
+GRSM,Lawson Jenkins-Kerr Cemetery Access,0.13
+GRSM,Lead Cove Trail,1.75
+GRSM,Little Bottoms Trail,2.23
+GRSM,Little Brier Gap Trail,1.44
+GRSM,Little Cataloochee Trail,6.9
+GRSM,Little Dudley Concession Horse Trail,2.7
+GRSM,Little Dudley Spur Concession Horse Trail,0.15
+GRSM,Little Greenbrier Trail,4.28
+GRSM,Little River Trail,6.19
+GRSM,Long Bunk Trail,3.58
+GRSM,Long Hungry Ridge Trail,4.45
+GRSM,Look Rock Developed Trail,0.51
+GRSM,Loop Trail,1.16
+GRSM,Lost Cove Trail,2.68
+GRSM,Low Gap Trail,5.33
+GRSM,Low Gap Trail Access,0.25
+GRSM,Lower Indian-Queen Cemetery Access,0.23
+GRSM,Lower Mount Cammerer Trail,7.4
+GRSM,Lower Noland-Monteith Cemetery Access,0.29
+GRSM,Lumber Ridge Trail,4.13
+GRSM,Lynn Camp Prong Trail,3.62
+GRSM,Maddron Bald Trail,7.18
+GRSM,Martins Gap Trail,3.03
+GRSM,McClure Cemetery Access,0.15
+GRSM,McKee Branch Trail,2.34
+GRSM,Meigs Creek Trail,3.41
+GRSM,Meigs Mountain Trail,6.0
+GRSM,Metcalf Bottoms Trail,0.67
+GRSM,Middle Prong Trail,4.09
+GRSM,Mings Creek-Watson Cemetery Access,0.81
+GRSM,Mingus Creek Trail,5.75
+GRSM,Miry Ridge Trail,4.91
+GRSM,Mount Cammerer Trail,0.6
+GRSM,Mount Sterling Ridge Trail,5.27
+GRSM,Mount Sterling Trail,2.28
+GRSM,Myrtle Point Trail,0.2
+GRSM,Nations Cemetery Access,0.18
+GRSM,New Beck-Huskey Cemetery Access,0.1
+GRSM,Newton Bald Concession Horse Trail Loop,1.52
+GRSM,Newton Bald Trail,5.47
+GRSM,Noah 'Bud' Ogle Place Nature Trail,0.72
+GRSM,Noland Creek Trail,11.72
+GRSM,Noland Divide Trail,11.45
+GRSM,Oconaluftee River Trail,1.63
+GRSM,Old Beck Cemetery Access,0.1
+GRSM,Old Deep Creek Quiet Walkway,0.11
+GRSM,Old Settlers Trail,15.6
+GRSM,Old Sugarlands Trail,3.87
+GRSM,Ollie Cove Trail,0.26
+GRSM,Painter Ridge Concession Horse Trail,1.47
+GRSM,Palmer Creek Trail,3.25
+GRSM,Panther Creek Trail,2.19
+GRSM,Pilkey Cemetery Access,0.78
+GRSM,Pilkey/Posey cemetery access,0.58
+GRSM,Pole Road Creek Trail,3.17
+GRSM,Porters Creek Trail,3.68
+GRSM,Posey Cemetery Access,0.12
+GRSM,Posey Cemetery Access Trail,0.19
+GRSM,Pretty Hollow Gap Trail,4.7
+GRSM,Queen Cemetery Access,0.21
+GRSM,Rabbit Creek Trail,7.7
+GRSM,Rainbow Falls Trail,6.5
+GRSM,Ramsey Cascades Trail,5.43
+GRSM,Rayfield-Dodgen Cemetery Access,0.17
+GRSM,Rich Mountain Loop Trail,3.28
+GRSM,Rich Mountain Trail,2.29
+GRSM,Riverview Quiet Walkway,0.62
+GRSM,Road Prong Trail,2.25
+GRSM,Rough Creek Trail,2.72
+GRSM,Rough Fork Trail,6.34
+GRSM,Roundtop Trail,7.43
+GRSM,Russell Field Trail,3.47
+GRSM,Schoolhouse Gap Trail,2.04
+GRSM,Scott Mountain Trail,3.76
+GRSM,Smokemont Loop Trail,3.81
+GRSM,Smokemont Nature Trail,0.57
+GRSM,Smokemont Stables Trail to Towstring Horse Trail,1.89
+GRSM,Snake Den Ridge Trail,5.24
+GRSM,Springhouse Branch Trail,6.99
+GRSM,Spruce Fir Nature Trail,0.32
+GRSM,Spruce Mountain Trail,1.14
+GRSM,Stiles Cemetery Access,0.06
+GRSM,Stone Pile Gap Trail,0.85
+GRSM,Sugarland Mountain Trail,11.78
+GRSM,Sugarland Valley Accessible Trail,0.47
+GRSM,Sunkota Ridge Trail,8.57
+GRSM,Sutton-McGhee Cemetery Access,0.15
+GRSM,Swallow Fork Trail,3.91
+GRSM,Sweat Heifer Creek Trail,3.63
+GRSM,Swinging Bridge Quiet Walkway,0.48
+GRSM,Thomas Divide Trail,13.61
+GRSM,Thunderhead Prong Quiet Walkway,0.7
+GRSM,Tow String Horse Trail,2.23
+GRSM,Tricorner Shelter Access,0.04
+GRSM,Trillium Gap Trail,8.91
+GRSM,Tritt Cemetery Access Trail,0.67
+GRSM,Tunnel Bypass Trail NC,1.58
+GRSM,Turkeypen Ridge Trail,3.6
+GRSM,Twentymile Loop Trail,2.86
+GRSM,Twentymile Trail,5.03
+GRSM,Twin Creeks Trail,1.87
+GRSM,Two Mile Lead Concession Horse Trail,6.01
+GRSM,Walker Cabin access,0.23
+GRSM,Welch Ridge Trail,6.64
+GRSM,Welch-Kirkland Cemetery Access,0.26
+GRSM,West Prong Trail,2.67
+GRSM,Wet Bottom Trail,0.98
+GRSM,White Oak Branch Trail,1.75
+GRSM,Wiggins-Watson-Toms Branch Cemetery Access,0.04
+GRSM,Wolf Ridge Trail,6.24
+GRSM,Woody-Conner Cemetery Access,0.22
