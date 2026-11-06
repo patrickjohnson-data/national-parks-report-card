@@ -1,0 +1,25 @@
+# models/marts/_schema.yml
+version: 2
+
+models:
+  - name: fct_park_report_card
+    description: One row per park per month, graded on weather, crowds and hiking.
+    columns:
+      - name: park_code
+        data_tests:
+          - not_null
+      - name: park_name
+        data_tests:
+          - not_null
+      - name: month_number
+        data_tests:
+          - not_null
+      - name: overall_score
+        data_tests:
+          - not_null
+      - name: overall_grade
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['A', 'B', 'C', 'D']
