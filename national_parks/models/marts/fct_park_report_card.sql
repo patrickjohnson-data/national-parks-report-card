@@ -16,20 +16,20 @@ with combined as (
         ,c.crowd_pct
         ,c.crowd_score
         ,c.crowd_grade
-        ,h.trail_count
-        ,h.trail_miles
-        ,h.hiking_score
-        ,h.hiking_grade
+        ,coalesce(h.trail_count, 0) as trail_count
+        ,coalesce(h.trail_miles, 0) as trail_miles
+        ,coalesce(h.hiking_score, 40) as hiking_score
+        ,coalesce(h.hiking_grade, 'D') as hiking_grade
         ,round(
             w.weather_score * 0.4
             + c.crowd_score * 0.4
-            + h.hiking_score * 0.2
+            + coalesce(h.hiking_score, 40) * 0.2
          ) as overall_score
     from {{ ref('int_weather_scores') }} w
     inner join {{ ref('int_crowd_scores') }} c
         on w.park_code = c.park_code
         and w.month_number = c.month_number
-    inner join {{ ref('int_hiking_scores') }} h
+    left join {{ ref('int_hiking_scores') }} h
         on w.park_code = h.park_code
     inner join {{ ref('parks') }} p
         on w.park_code = p.park_code

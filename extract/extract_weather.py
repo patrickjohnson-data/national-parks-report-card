@@ -1,31 +1,29 @@
+# extract/extract_weather.py
 import csv
 import json
+import sys
 import time
 from pathlib import Path
 
 import requests
 
-# Folder locations, worked out from where this script lives
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-PARKS_FILE = PROJECT_ROOT / "national_parks" / "seeds" / "parks.csv"
-OUTPUT_DIR = PROJECT_ROOT / "data" / "raw" / "weather"
+# Paths are relative to this script, so it works from any folder
+SCRIPT_DIR = Path(__file__).parent
+REPO_ROOT = SCRIPT_DIR.parent
+PARKS_FILE = REPO_ROOT / "national_parks" / "seeds" / "parks.csv"
+OUTPUT_DIR = REPO_ROOT / "data" / "raw" / "weather"
 
-API_URL = "https://archive-api.open-meteo.com/v1/archive"
+WEATHER_URL = "https://archive-api.open-meteo.com/v1/archive"
 START_DATE = "2020-01-01"
 END_DATE = "2025-12-31"
+MAX_ATTEMPTS = 5
+WAIT_SECONDS = 60
 
 
-def read_parks():
-    """Read parks.csv and return one dictionary per park."""
-    with open(PARKS_FILE, newline="") as f:
-        return list(csv.DictReader(f))
-
-
-def fetch_weather(latitude, longitude):
-    """Ask Open-Meteo for daily weather at one location."""
+def fetch_weather(lat, lon):
     params = {
-        "latitude": latitude,
-        "longitude": longitude,
+        "latitude": lat,
+        "longitude": lon,
         "start_date": START_DATE,
         "end_date": END_DATE,
         "daily": "temperature_2m_max,temperature_2m_min,precipitation_sum",
@@ -33,28 +31,43 @@ def fetch_weather(latitude, longitude):
         "precipitation_unit": "inch",
         "timezone": "auto",
     }
-    response = requests.get(API_URL, params=params, timeout=60)
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        response = requests.get(WEATHER_URL, params=params, timeout=60)
+        if response.status_code == 200:
+            return response.json()
+        if response.status_code == 429:
+            print(f"  rate limited (attempt {attempt}), waiting {WAIT_SECONDS} seconds...")
+            time.sleep(WAIT_SECONDS)
+            continue
+        response.raise_for_status()
     response.raise_for_status()
-    return response.json()
 
 
 def main():
+    # Run with --refresh to download every park again
+    refresh = "--refresh" in sys.argv
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    parks = read_parks()
+
+    with open(PARKS_FILE, newline="", encoding="utf-8") as f:
+        parks = list(csv.DictReader(f))
 
     for park in parks:
         code = park["park_code"]
-        print(f"Fetching weather for {park['park_name']} ({code})...")
+        output_file = OUTPUT_DIR / f"{code}.json"
 
+        if output_file.exists() and not refresh:
+            print(f"Skipping {code}, already saved")
+            continue
+
+        print(f"Fetching weather for {park['park_name']} ({code})...")
         data = fetch_weather(park["latitude"], park["longitude"])
 
-        output_file = OUTPUT_DIR / f"{code}.json"
-        with open(output_file, "w") as f:
+        with open(output_file, "w", encoding="utf-8") as f:
             json.dump(data, f)
 
-        time.sleep(1)  # pause between calls, to be polite to the free API
+        time.sleep(3)
 
-    print(f"Done. Saved {len(parks)} files to {OUTPUT_DIR}")
+    print("Done.")
 
 
 if __name__ == "__main__":
