@@ -1,4 +1,5 @@
 -- models/marts/fct_park_report_card.sql
+-- One row per park per month, with weather, crowd and hiking scores and an overall grade.
 {{ config(materialized='table') }}
 
 with combined as (
@@ -17,10 +18,12 @@ with combined as (
         ,c.is_limited_access
         ,c.crowd_score
         ,c.crowd_grade
+        -- Parks with no trails in the NPS data get the lowest hiking score
         ,coalesce(h.trail_count, 0) as trail_count
         ,coalesce(h.trail_miles, 0) as trail_miles
         ,coalesce(h.hiking_score, 40) as hiking_score
         ,coalesce(h.hiking_grade, 'D') as hiking_grade
+        -- Weighted 40% weather, 40% crowds, 20% hiking
         ,round(
             w.weather_score * 0.4
             + c.crowd_score * 0.4
@@ -30,18 +33,21 @@ with combined as (
     inner join {{ ref('int_crowd_scores') }} c
         on w.park_code = c.park_code
         and w.month_number = c.month_number
+    -- Hiking is one row per park, so it repeats for every month
     left join {{ ref('int_hiking_scores') }} h
         on w.park_code = h.park_code
     inner join {{ ref('parks') }} p
         on w.park_code = p.park_code
 ),
 
+-- 0 is the best score, 1 the worst. Ties share a rank.
 ranked as (
     select *
         ,percent_rank() over (order by overall_score desc) as score_rank
     from combined
 )
 
+-- Curved grade: top 10% A, next 30% B, next 40% C, bottom 20% D
 select *
     ,case
         when score_rank <= 0.10 then 'A'

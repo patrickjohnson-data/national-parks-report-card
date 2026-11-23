@@ -1,4 +1,5 @@
 -- models/intermediate/int_weather_scores.sql
+-- Weather score out of 100 per park-month: up to 50 for the high, 20 for the low, 30 for rain.
 with scored as (
     select park_code
         ,month_number
@@ -26,5 +27,6 @@ with scored as (
 
 select *
     ,high_points + low_points + rain_points as weather_score
+    -- weather_score can't be referenced in the same select, so pass the full expression
     ,{{ score_to_grade('high_points + low_points + rain_points') }} as weather_grade
 from scored

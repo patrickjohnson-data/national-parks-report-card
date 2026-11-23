@@ -1,9 +1,12 @@
+-- models/intermediate/int_crowd_scores.sql
+-- Crowd score per park-month, comparing each month with that park's busiest month.
 with scored as (
     select park_code
         ,month_number
         ,month_name
         ,avg_visits
         ,max(avg_visits) over (partition by park_code) as peak_avg_visits
+        -- Percent of the park's peak month
         ,round(avg_visits / max(avg_visits) over (partition by park_code) * 100, 1) as crowd_pct
     from {{ ref('int_park_visits_monthly') }}
 ),

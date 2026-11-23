@@ -1,4 +1,5 @@
 -- models/intermediate/int_park_weather_monthly.sql
+-- Average daily weather per park per calendar month across 2020-2025.
 select park_code
     ,month(weather_date) as month_number
     ,monthname(weather_date) as month_name

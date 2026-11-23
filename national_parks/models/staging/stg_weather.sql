@@ -1,5 +1,8 @@
+-- models/staging/stg_weather.sql
+-- One row per park per day from the Open-Meteo JSON files.
 with raw as (
 
+    -- The park code comes from the file name, e.g. ZION.json
     select
         regexp_extract(filename, '([A-Z]{4})\.json$', 1) as park_code,
         daily
@@ -7,6 +10,7 @@ with raw as (
 
 ),
 
+-- Each file has one list per measure; unnesting them together gives one row per day
 unpacked as (
 
     select

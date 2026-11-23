@@ -1,4 +1,5 @@
 -- models/intermediate/int_hiking_scores.sql
+-- Hiking score per park, ranked by total trail miles. The same score applies to every month.
 with trail_totals as (
     select park_code
         ,count(distinct trail_name) as trail_count
@@ -7,6 +8,7 @@ with trail_totals as (
     group by park_code
 ),
 
+-- Ranking spreads parks evenly from 40 (fewest miles) to 100 (most)
 ranked as (
     select *
         ,round(percent_rank() over (order by trail_miles) * 100, 1) as trail_rank_pct
