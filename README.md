@@ -157,12 +157,12 @@ The visitor counts are a manual step, because NPS Stats doesn't have a download 
 
 ## Tests
 
-`dbt build` runs 33 tests. Besides the usual `not_null`, `unique` and `accepted_values` checks, there are a few custom ones: one row per park per day in the weather, one row per park per month in the report card, exactly 12 months for every park, and no park missing from the final table.
+`dbt build` runs 32 tests. Besides the usual `not_null`, `unique` and `accepted_values` checks, there are a few custom ones: one row per park per day in the weather, one row per park per month in the report card, exactly 12 months for every park, and no park missing from the final table.
 
 ## Limitations
 
 - Crowd numbers are for the whole park. I couldn't find free trail-level crowd data, since AllTrails and Strava don't have public APIs.
-- 2020 includes COVID closures, so some 2020 months look quieter than they really were.
+- 2020 includes COVID closures. Months with 0 visits in 2020 are left out of the averages, but partly open months still look quieter than they really were.
 - Low visitor numbers don't always mean a good time to visit. Some months are quiet because a park is hard to reach, for example when snow keeps roads closed, so a high crowd score can reward an inaccessible month.
 - Weather comes from one point per park, using approximate park centers. Big parks with a lot of elevation change can be much warmer or colder in other areas.
 - Hiking rewards total miles, so big parks beat small parks with famous hikes, like Zion. The NPS data may also include some informal trails.
