@@ -37,3 +37,20 @@ models:
       - name: recreation_visits
         data_tests:
           - not_null          
+  - name: stg_trails
+    description: One row per trail segment from the NPS Public Trails dataset, with zero-length segments removed.
+    columns:
+      - name: park_code
+        description: Four-letter NPS park code.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('parks')
+                field: park_code
+      - name: trail_name
+        description: Trail name. Null for a few unnamed segments, which still count toward trail miles.
+      - name: length_miles
+        description: Segment length in miles. Always greater than zero.
+        data_tests:
+          - not_null

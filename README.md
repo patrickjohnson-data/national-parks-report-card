@@ -157,7 +157,7 @@ The visitor counts are a manual step, because NPS Stats doesn't have a download 
 
 ## Tests
 
-`dbt build` runs 30 tests. Besides the usual `not_null`, `unique` and `accepted_values` checks, there are a few custom ones: one row per park per day in the weather, one row per park per month in the report card, exactly 12 months for every park, and no park missing from the final table.
+`dbt build` runs 33 tests. Besides the usual `not_null`, `unique` and `accepted_values` checks, there are a few custom ones: one row per park per day in the weather, one row per park per month in the report card, exactly 12 months for every park, and no park missing from the final table.
 
 ## Limitations
 
