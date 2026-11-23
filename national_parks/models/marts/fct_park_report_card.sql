@@ -14,6 +14,7 @@ with combined as (
         ,w.weather_grade
         ,c.avg_visits
         ,c.crowd_pct
+        ,c.is_limited_access
         ,c.crowd_score
         ,c.crowd_grade
         ,coalesce(h.trail_count, 0) as trail_count

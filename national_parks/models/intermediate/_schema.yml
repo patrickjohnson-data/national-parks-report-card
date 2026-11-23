@@ -36,6 +36,10 @@ models:
       - name: park_code
         data_tests:
           - not_null
+      - name: is_limited_access
+        description: True when the month averages under 5% of the park's peak month. These months get a crowd score of 0.
+        data_tests:
+          - not_null
       - name: crowd_grade
         data_tests:
           - accepted_values:

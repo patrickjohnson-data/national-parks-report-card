@@ -10,7 +10,10 @@ with scored as (
 
 points as (
     select *
+        -- Under 5% of peak usually means most of the park is closed or hard to reach
+        ,crowd_pct < 5 as is_limited_access
         ,case
+            when crowd_pct < 5 then 0
             when crowd_pct < 30 then 100
             when crowd_pct < 60 then 80
             when crowd_pct < 80 then 60

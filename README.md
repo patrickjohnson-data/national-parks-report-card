@@ -44,7 +44,7 @@ Weather, crowds and hiking each get their own grade on a fixed scale: A is 90 an
 
 **Weather.** Points for the average high (50 for 60 to 80°F, 30 for 50 to 90°F, 10 otherwise), the average low (20 for 40 to 60°F, 10 for 32 to 70°F, 0 otherwise) and rain (30 for under 0.05 in a day, 15 for under 0.15, 0 otherwise).
 
-**Crowds.** Each month is compared with that park's own busiest month, so a quiet month at a busy park can still score well. Under 30% of peak gets 100, under 60% gets 80, under 80% gets 60, and anything higher gets 40.
+**Crowds.** Each month is compared with that park's own busiest month, so a quiet month at a busy park can still score well. Under 30% of peak gets 100, under 60% gets 80, under 80% gets 60, and anything higher gets 40. The exception is a month under 5% of peak, which gets 0 and is flagged with `is_limited_access`. Those are almost all deep-winter months when most of the park is closed or hard to reach, like Isle Royale after the ferries stop or Yellowstone when most roads are closed to cars.
 
 **Hiking.** Parks are ranked by total trail miles, and the rank becomes a score from 40 (fewest miles) to 100 (most). I first compared every park with the one that had the most miles, but Yellowstone is so far ahead that almost every other park ended up at the bottom. Ranking spreads them out evenly. Parks with no trails in the NPS data get 40.
 
@@ -157,13 +157,13 @@ The visitor counts are a manual step, because NPS Stats doesn't have a download 
 
 ## Tests
 
-`dbt build` runs 32 tests. Besides the usual `not_null`, `unique` and `accepted_values` checks, there are a few custom ones: one row per park per day in the weather, one row per park per month in the report card, exactly 12 months for every park, and no park missing from the final table.
+`dbt build` runs 34 tests. Besides the usual `not_null`, `unique` and `accepted_values` checks, there are a few custom ones: one row per park per day in the weather, one row per park per month in the report card, exactly 12 months for every park, and no park missing from the final table.
 
 ## Limitations
 
 - Crowd numbers are for the whole park. I couldn't find free trail-level crowd data, since AllTrails and Strava don't have public APIs.
 - 2020 includes COVID closures. Months with 0 visits in 2020 are left out of the averages, but partly open months still look quieter than they really were.
-- Low visitor numbers don't always mean a good time to visit. Some months are quiet because a park is hard to reach, for example when snow keeps roads closed, so a high crowd score can reward an inaccessible month.
+- Low visitor numbers don't always mean a good time to visit. Months under 5% of peak are treated as limited access and score 0 for crowds, but a month that's partly open, like North Cascades in May, can still get a high crowd score.
 - Weather comes from one point per park, using approximate park centers. Big parks with a lot of elevation change can be much warmer or colder in other areas.
 - Hiking rewards total miles, so big parks beat small parks with famous hikes, like Zion. The NPS data may also include some informal trails.
 - A few parks have no trails in the NPS data, mostly the marine parks and remote Alaska parks. Sequoia and Kings Canyon are managed together, so their trails may be filed under one code.

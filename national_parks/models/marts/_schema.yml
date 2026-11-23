@@ -14,6 +14,10 @@ models:
       - name: month_number
         data_tests:
           - not_null
+      - name: is_limited_access
+        description: True when the month averages under 5% of the park's peak month, which usually means most of the park is closed or hard to reach.
+        data_tests:
+          - not_null
       - name: overall_score
         data_tests:
           - not_null
