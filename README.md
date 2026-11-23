@@ -44,7 +44,7 @@ Weather, crowds and hiking each get their own grade on a fixed scale: A is 90 an
 
 **Weather.** Points for the average high (50 for 60 to 80°F, 30 for 50 to 90°F, 10 otherwise), the average low (20 for 40 to 60°F, 10 for 32 to 70°F, 0 otherwise) and rain (30 for under 0.05 in a day, 15 for under 0.15, 0 otherwise).
 
-**Crowds.** Each month is compared with that park's own busiest month, so a quiet month at a busy park can still score well. Under 40% of peak gets 100, under 60% gets 80, under 80% gets 60, and anything higher gets 40.
+**Crowds.** Each month is compared with that park's own busiest month, so a quiet month at a busy park can still score well. Under 30% of peak gets 100, under 60% gets 80, under 80% gets 60, and anything higher gets 40.
 
 **Hiking.** Parks are ranked by total trail miles, and the rank becomes a score from 40 (fewest miles) to 100 (most). I first compared every park with the one that had the most miles, but Yellowstone is so far ahead that almost every other park ended up at the bottom. Ranking spreads them out evenly. Parks with no trails in the NPS data get 40.
 
