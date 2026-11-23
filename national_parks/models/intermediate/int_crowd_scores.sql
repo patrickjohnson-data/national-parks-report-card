@@ -23,10 +23,5 @@ points as (
 )
 
 select *
-    ,case
-        when crowd_score >= 90 then 'A'
-        when crowd_score >= 75 then 'B'
-        when crowd_score >= 60 then 'C'
-        else 'D'
-     end as crowd_grade
+    ,{{ score_to_grade('crowd_score') }} as crowd_grade
 from points

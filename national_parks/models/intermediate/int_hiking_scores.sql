@@ -15,10 +15,5 @@ ranked as (
 )
 
 select *
-    ,case
-        when hiking_score >= 90 then 'A'
-        when hiking_score >= 75 then 'B'
-        when hiking_score >= 60 then 'C'
-        else 'D'
-     end as hiking_grade
+    ,{{ score_to_grade('hiking_score') }} as hiking_grade
 from ranked

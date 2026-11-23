@@ -26,10 +26,5 @@ with scored as (
 
 select *
     ,high_points + low_points + rain_points as weather_score
-    ,case
-        when high_points + low_points + rain_points >= 90 then 'A'
-        when high_points + low_points + rain_points >= 75 then 'B'
-        when high_points + low_points + rain_points >= 60 then 'C'
-        else 'D'
-     end as weather_grade
+    ,{{ score_to_grade('high_points + low_points + rain_points') }} as weather_grade
 from scored
